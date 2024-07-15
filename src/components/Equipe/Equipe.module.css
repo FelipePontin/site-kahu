@@ -1,0 +1,39 @@
+.equipe {
+    margin: 5rem 0 0 0;
+    text-align: center;
+    color: #1a212f;
+}
+
+.equipe__title {
+    margin: .5rem 0 0 0;
+    font-family: "Lato", sans-serif;
+}
+
+.equipe__team {
+    margin: 2.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.equipe__people {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.equipe__image {
+    border-radius: .75rem;
+}
+
+.equipe__name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem 0;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.equipe__description {
+    font-family: "Lato", sans-serif;
+}

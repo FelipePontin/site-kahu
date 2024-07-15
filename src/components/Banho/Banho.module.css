@@ -1,0 +1,47 @@
+.banho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6rem 0 0 0;
+}
+
+.banho__atividades__imagem {
+    border-radius: 1rem;
+}
+
+.banho__atividades__swiper {
+    width: 32.5rem;
+    margin: 0 5rem 0 0;
+}
+
+.banho__divisao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 4rem 0 0 0;
+}
+
+.banho__infos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 42rem;
+}
+
+.banho__info {
+    margin: 1.5rem;
+    max-width: 15rem;
+}
+
+.banho__titulo {
+    font-weight: 700;
+    margin: 1rem 0;
+    font-size: 1.15rem;
+    color: #1a212f;
+    font-family: "Rubik", sans-serif;
+}
+
+.banho__subtitulo {
+    color: #1a212f;
+    font-family: "Lato", sans-serif;
+}

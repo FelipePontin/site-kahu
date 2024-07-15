@@ -1,0 +1,27 @@
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 52.5rem;
+    padding: 3.5rem;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    background: rgb(135, 160, 132);
+    background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+}
+
+.cardInfo__title {
+    font-size: 3em;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.cardInfo__subtitle {
+    max-width: 33.85rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin: 1.25rem 0;
+    font-family: "Lato", sans-serif;
+    color: #1a212f;
+}

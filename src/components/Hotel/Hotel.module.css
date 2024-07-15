@@ -1,0 +1,134 @@
+.hotel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6rem 0 0 0;
+}
+
+.hotel__icon {
+    width: 5.25rem;
+    margin: 0 0 1rem 0;
+}
+
+.hotel__cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.hotel__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 20rem;
+    height: 23.5rem;
+    margin: 0 1rem;
+}
+
+.hotel__imagem {
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.hotel__titulo {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    color: #1a212f;
+    font-family: "Rubik", sans-serif;
+}
+
+.hotel__subtitulo {
+    font-size: 0.95rem;
+    font-family: "Lato", sans-serif;
+    color: #1a212f;
+}
+
+.hotel__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    width: max-content;
+    margin: 1rem 0 0 0;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    background: rgb(135, 160, 132);
+    background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+    transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hotel__button:hover {
+    transform: scale(1.025);
+}
+
+.hotel__precos {
+    margin: 5.25rem 0 0 0;
+}
+
+.hotel__pacotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 3.5rem 0 0 0;
+    max-width: 80rem;
+}
+
+.hotel__pacote {
+    font-family: "Lato", sans-serif;
+    margin: .85rem;
+    width: 15rem;
+    border-radius: .5rem;
+    padding: 2rem 1.25rem 1.75rem 1.25rem;
+    background: rgb(135, 160, 132);
+    background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+}
+
+.hotel__pacote__titulo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hotel__pacote__subtitulo {
+    margin: .95rem 0 0 0;
+    color: #1a212f;
+}
+
+.hotel__pacote__preco {
+    margin: 3rem 0 0 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1a212f;
+}
+
+.hotel__pacote__adendo {
+   display: flex;
+   align-items: center;
+   margin: 2rem 0 0 0;
+   font-family: "Lato", sans-serif;
+}
+
+.hotel__pacote__imagem {
+    width: 4rem;
+}
+
+.hotel__pacote__divisaoAdendo {
+    margin: 0 0 0 1.5rem;
+}
+
+.hotel__pacote__adendoTitulo {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.hotel__pacote__adendoSubtitulo {
+    margin: .25rem 0 0 0;
+}

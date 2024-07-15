@@ -1,0 +1,46 @@
+.redes {
+    width: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5.5rem auto 0 auto;
+}
+
+.redes__container {
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+
+.redes__division {
+    width: 6.5rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.redes__division:hover {
+    transform: scale(1.025);
+}
+
+.redes__instagram {
+    background: #e1306c;
+}
+
+.redes__tiktok {
+    background: #000000;
+}
+
+.redes__icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.redes__name {
+    margin: 6.15rem 0 0 0;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    color: #ffffff;
+}

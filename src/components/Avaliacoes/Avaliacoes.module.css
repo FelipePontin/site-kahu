@@ -1,0 +1,64 @@
+.avaliacao__subtitle {
+  font-size: 1.15rem;
+  margin: .5rem 0 2rem 0;
+  color: #1a212f;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.avaliacao__container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.avaliacao__divisionTop {
+  display: flex;
+  animation: scroll 10s linear infinite alternate;
+}
+
+.avaliacao__divisionTop:hover {
+  animation-play-state: paused;
+}
+
+.avaliacao__divisionBottom {
+  display: flex;
+  animation: scroll 10s linear infinite alternate-reverse;
+}
+
+.avaliacao__divisionBottom:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.avaliacao__card {
+  flex: 0 0 15%;
+  height: 5.5rem;
+  padding: 1rem 1rem;
+  background: rgba(180, 207, 177, 0.767);
+  color: #1a212f;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.avaliacao__card:hover {
+  animation-play-state: paused;
+}
+
+.avaliacao__text {
+  margin: 1.5rem 0 0 0;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.avaliacao__user {
+  font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,56 @@
+.sobre__kahu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0 0 0;
+}
+
+.sobre__imagem {
+    margin: 0 7rem 0 0;
+    border-radius: 0.5rem;
+}
+
+.sobre__logo {
+    width: 6.5rem;
+}
+
+.sobre__divisao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sobre__titulo {
+    margin: 1rem 0;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #1a212f;
+    font-family: "Rubik", sans-serif;
+}
+
+.sobre__subtitulo {
+    max-width: 32.5rem;
+    color: #1a212f;
+    font-family: "Lato", sans-serif;
+}
+
+.sobre__infos {
+    max-width: 57.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: rgb(135, 160, 132);
+    background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+}
+
+.sobre__logo {
+    margin: 0 1rem 0 0;
+    width: 3.5rem;
+}
+.sobre__info {
+    font-family: "Lato", sans-serif;
+}

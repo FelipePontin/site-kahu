@@ -1,0 +1,76 @@
+.servicos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servicos__divisoes {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.servicos__title {
+    text-align: center;
+    margin: 5rem auto 4.5rem auto;
+}
+
+.servicos__divisao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.servicos__servico {
+    position: relative;
+    margin: 1rem 2rem 1rem 0;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    width: 18.5rem;
+    height: 13.45rem;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background: #ffffff;
+    z-index: 10;
+    box-shadow: 1px 0px 31px 3px rgba(168, 168, 168, 0.288);
+    transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.servicos__servico:hover {
+    transform: scale(1.025);
+}
+
+.servicos__imagem {
+    width: 5.25rem;
+}
+
+.servicos__titulo {
+    margin: 1rem 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.servicos__subtitulo {
+    font-size: .95rem;
+    font-family: "Lato", sans-serif;
+    color: #1a212f;
+}
+
+.servicos__icone {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.55rem;
+    color: #1a212f;
+}
+
+.servicos__imagemPata {
+    position: absolute;
+    top: -11.5rem;
+    right: -9.25rem;
+    z-index: 1;
+}
