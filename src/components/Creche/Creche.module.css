@@ -115,9 +115,9 @@
 
 .creche__pacote {
     font-family: "Lato", sans-serif;
-    margin: .85rem;
+    margin: 0.85rem;
     width: 15rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 2rem 1.25rem 1.75rem 1.25rem;
     background: rgb(135, 160, 132);
     background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
@@ -130,7 +130,7 @@
 }
 
 .creche__pacote__subtitulo {
-    margin: .95rem 0 0 0;
+    margin: 0.95rem 0 0 0;
     color: #1a212f;
 }
 
@@ -142,10 +142,10 @@
 }
 
 .creche__pacote__adendo {
-   display: flex;
-   align-items: center;
-   margin: 2rem 0 0 0;
-   font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 0 0;
+    font-family: "Lato", sans-serif;
 }
 
 .creche__pacote__imagem {
@@ -162,5 +162,54 @@
 }
 
 .creche__pacote__adendoSubtitulo {
-    margin: .25rem 0 0 0;
+    margin: 0.25rem 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .creche__cards {
+        flex-direction: column;
+    }
+
+    .creche__card {
+        margin: 1rem;
+    }
+
+    .creche__atividades {
+        margin: 2rem auto 0 auto;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .creche__atividades__swiper {
+        width: 22.5rem;
+        margin: 0 0 0 0;
+    }
+
+    .creche__atividades__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 1rem auto 0 auto;
+    }
+
+    .creche__atividades__explicacao {
+        width: auto;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .creche__pacotes {
+        justify-content: center;
+    }
+
+    .creche__pacote__adendo {
+        flex-direction: column;
+    }
+
+    .creche__pacote__divisaoAdendo {
+        margin: 1rem 0 0 1.5rem;
+
+    }
 }

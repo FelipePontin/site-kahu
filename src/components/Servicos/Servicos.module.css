@@ -55,7 +55,7 @@
 }
 
 .servicos__subtitulo {
-    font-size: .95rem;
+    font-size: 0.95rem;
     font-family: "Lato", sans-serif;
     color: #1a212f;
 }
@@ -72,5 +72,23 @@
     position: absolute;
     top: -11.5rem;
     right: -9.25rem;
-    z-index: 1;
+    z-index: 99;
+}
+
+@media screen and (max-width: 1200px) {
+    .servicos__divisao {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .servicos__servico {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .servicos__imagemPata {
+        display: none;
+        top: -10.5rem;
+        right: -9.25rem;
+        width: 20rem;
+    }
 }

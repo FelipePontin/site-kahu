@@ -12,21 +12,13 @@
   position: relative;
 }
 
-.avaliacao__divisionTop {
+.avaliacao__track {
   display: flex;
-  animation: scroll 10s linear infinite alternate;
+  width: calc(200%); /* Duplicamos os cards */
+  animation: scroll 20s linear infinite alternate;
 }
 
-.avaliacao__divisionTop:hover {
-  animation-play-state: paused;
-}
-
-.avaliacao__divisionBottom {
-  display: flex;
-  animation: scroll 10s linear infinite alternate-reverse;
-}
-
-.avaliacao__divisionBottom:hover {
+.avaliacao__track:hover {
   animation-play-state: paused;
 }
 
@@ -40,7 +32,7 @@
 }
 
 .avaliacao__card {
-  flex: 0 0 15%;
+  flex: 0 0 250px; /* Definindo largura fixa dos cards */
   height: 5.5rem;
   padding: 1rem 1rem;
   background: rgba(180, 207, 177, 0.767);

@@ -42,7 +42,7 @@
     justify-content: center;
     margin: 3rem auto 1rem;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     background: rgb(135, 160, 132);
     background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
 }
@@ -53,4 +53,51 @@
 }
 .sobre__info {
     font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .sobre__kahu {
+        margin: 4rem 0 0 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre__imagem {
+        margin: 1rem;
+    }
+
+    .sobre__divisao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .sobre__subtitulo {
+        width: auto;
+        margin: 1rem;
+        color: #1a212f;
+        font-family: "Lato", sans-serif;
+    }
+
+    .sobre__infos {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 1rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: rgb(135, 160, 132);
+        background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+    }
+    
+    .sobre__logo {
+        margin: 0 1rem 0 0;
+        width: 8rem;
+    }
+    .sobre__info {
+        font-family: "Lato", sans-serif;
+    }
 }

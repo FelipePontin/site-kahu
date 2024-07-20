@@ -45,3 +45,22 @@
     color: #1a212f;
     font-family: "Lato", sans-serif;
 }
+
+@media screen and (max-width: 1000px) {
+    .banho__divisao {
+        align-items: center;
+        flex-direction: column;
+    } 
+
+    .banho__infos {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+        
+    }
+
+    .banho__atividades__swiper {
+        width: 22.5rem;
+        margin: 2rem 0 0 0;
+    }
+}

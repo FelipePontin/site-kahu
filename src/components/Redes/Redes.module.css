@@ -10,6 +10,7 @@
 .redes__container {
     display: flex;
     margin: 2rem 0 0 0;
+    overflow-y:hidden;
 }
 
 .redes__division {
@@ -43,4 +44,12 @@
     font-weight: bold;
     font-family: "Rubik", sans-serif;
     color: #ffffff;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .redes {
+        width: 25rem;
+        align-items: center;
+    }    
 }

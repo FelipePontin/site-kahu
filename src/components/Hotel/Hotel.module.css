@@ -132,3 +132,52 @@
 .hotel__pacote__adendoSubtitulo {
     margin: .25rem 0 0 0;
 }
+
+@media screen and (max-width: 1430px) {
+    .hotel__cards {
+        flex-direction: column;
+    }
+
+    .hotel__card {
+        margin: 1rem;
+    }
+
+    .hotel__atividades {
+        margin: 2rem auto 0 auto;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .hotel__atividades__swiper {
+        width: 22.5rem;
+        margin: 0 0 0 0;
+    }
+
+    .hotel__atividades__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 1rem auto 0 auto;
+    }
+
+    .hotel__atividades__explicacao {
+        width: auto;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .hotel__pacotes {
+        justify-content: center;
+    }
+
+    .hotel__pacote__adendo {
+        flex-direction: column;
+    }
+
+    .hotel__pacote__divisaoAdendo {
+        margin: 1rem 0 0 1.5rem;
+
+    }
+}

@@ -1,4 +1,79 @@
 .rodape {
+    margin: 6rem 0 0 0;
     background: rgb(135, 160, 132);
     background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+}
+
+.rodape__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape__titulo {
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.rodape__endereco {
+    margin: 1rem 0 0 0;
+    font-size: 1.25rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.rodape__info {
+    font-weight: bold;
+    margin: .5rem 0 0 0;
+    font-size: 1.1rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.rodape__contato {
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.rodape__telefone {
+    text-decoration: underline;
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
+.rodape__telefone:hover {
+    text-decoration: underline;
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Rubik", sans-serif;
+    color: #1b2538;
+}
+
+.banner__image {
+    width: 26rem;
+}
+
+.banner__copyright {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    font-family: "Rubik", sans-serif;
+    color: #1b2538;
+}
+
+@media screen and (max-width: 1000px) {
+    .rodape__container {
+        text-align: center;
+        flex-direction: column;
+        margin: 3rem 1rem;
+    }
 }
