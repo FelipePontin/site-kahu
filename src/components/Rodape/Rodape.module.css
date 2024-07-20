@@ -75,6 +75,6 @@
     .rodape__container {
         text-align: center;
         flex-direction: column;
-        margin: 3rem 1rem;
+        margin: 0rem 1rem;
     }
 }

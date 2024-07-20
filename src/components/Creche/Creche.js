@@ -39,7 +39,7 @@ const Creche = () => {
                         <p className={styles.creche__titulo}>Diversão Diária</p>
                         <p className={styles.creche__subtitulo}>Creche Canina com Atividades, Cuidados Especializados e Muito Amor para Seu Melhor Amigo</p>
                     </div>
-                    <button className={styles.creche__button}>Saiba Mais</button>
+                    {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
@@ -47,7 +47,7 @@ const Creche = () => {
                         <p className={styles.creche__titulo}>Amigos Felizes</p>
                         <p className={styles.creche__subtitulo}>Socialização, Brincadeiras Interativas e Supervisão Profissional na Nossa Creche Canina</p>
                     </div>
-                    <button className={styles.creche__button}>Saiba Mais</button>
+                    {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
@@ -55,9 +55,10 @@ const Creche = () => {
                         <p className={styles.creche__titulo}>Dia Animado</p>
                         <p className={styles.creche__subtitulo}>Ambiente Seguro e Estimulante, com Atividades Planejadas para o Bem-Estar do Seu Cão na Creche Canina</p>
                     </div>
-                    <button className={styles.creche__button}>Saiba Mais</button>
+                    {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
             </div>
+
             <div className={styles.creche__atividades}>
                 <div className={styles.creche__atividades__swiper}>
                     <Slider {...settings}>

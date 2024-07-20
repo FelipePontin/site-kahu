@@ -5,6 +5,9 @@ import styles from './Header.module.css'
 import KahuLogo from '../../images/LogoKahuHeader.png'
 
 import { IoMenu } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
@@ -17,6 +20,15 @@ const Header = () => {
 
     const closeMenu = () => setMenu(false)
 
+    useEffect(() => {
+        const handleResize = () => setMenu(true);
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <>
             <div className={styles.header__banner}></div>
@@ -26,12 +38,17 @@ const Header = () => {
                     <nav className={styles.header__navigation}>
                         {menu &&
                             <ul className={`${styles.header__list}`}>
-                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#'>Início</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#inicio'>Início</Link></li>
                                 <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#servicos'>Serviços</Link></li>
                                 <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#creche'>Creche</Link></li>
                                 <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#hotel'>Hotel</Link></li>
                                 <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#banho'>Banho e Tosa</Link></li>
                                 <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
+                                <div className={styles.header__icons__division}>
+                                    <FaInstagram className={styles.header__icon} />
+                                    <FaTiktok className={styles.header__icon} />
+                                    <FaWhatsapp className={styles.header__icon} />
+                                </div>
                             </ul>
                         }
                     </nav>

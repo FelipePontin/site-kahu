@@ -37,6 +37,19 @@
     transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+.header__icon {
+    margin: 0 .5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: #1a212f;
+    transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.header__icon:hover {
+    transform: scale(1.125);
+
+}
+
 .header__link {
     font-size: 0.9rem;
     color: #1a212f;
@@ -84,5 +97,9 @@
         top: 1.75rem;
         right: 1rem;
         z-index: 99999;
+    }
+
+    .header__icons__division {
+        margin: 1rem 0 0 0;
     }
 }

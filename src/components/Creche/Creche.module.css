@@ -175,6 +175,7 @@
 
 @media screen and (max-width: 1000px) {
     .creche__cards {
+        margin: 1rem 0;
         flex-direction: column;
     }
 

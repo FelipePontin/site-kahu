@@ -21,7 +21,7 @@ const Hotel = () => {
                         <p className={styles.hotel__titulo}>Diárias</p>
                         <p className={styles.hotel__subtitulo}>As diárias são de 24 horas, com supervisão noturna constante por um membro da equipe.</p>
                     </div>
-                    <button className={styles.hotel__button}>Saiba Mais</button>
+                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                 </div>
                 <div className={styles.hotel__card}>
                     <div className={styles.hotel__cardDivision}>
@@ -29,7 +29,7 @@ const Hotel = () => {
                         <p className={styles.hotel__titulo}>Quartos</p>
                         <p className={styles.hotel__subtitulo}>Nossos quartos são arejados com camas individuais para cada hóspede e são higienizados diariamente.</p>
                     </div>
-                    <button className={styles.hotel__button}>Saiba Mais</button>
+                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                 </div>
                 <div className={styles.hotel__card}>
                     <div className={styles.hotel__cardDivision}>
@@ -37,7 +37,7 @@ const Hotel = () => {
                         <p className={styles.hotel__titulo}>Lençóis</p>
                         <p className={styles.hotel__subtitulo}>Os lençóis são de algodão hipoalergênicos, lavados a cada hóspede ou a cada 3 dias.</p>
                     </div>
-                    <button className={styles.hotel__button}>Saiba Mais</button>
+                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                 </div>
                 <div className={styles.hotel__card}>
                     <div className={styles.hotel__cardDivision}>
@@ -45,7 +45,7 @@ const Hotel = () => {
                         <p className={styles.hotel__titulo}>Colchões e camas</p>
                         <p className={styles.hotel__subtitulo}>Nossos quartos são arejados com camas individuais para cada hóspede e são higienizados diariamente.</p>
                     </div>
-                    <button className={styles.hotel__button}>Saiba Mais</button>
+                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                 </div>
             </div>
             <div className={styles.hotel__precos}>
