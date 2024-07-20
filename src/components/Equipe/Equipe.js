@@ -14,17 +14,17 @@ const Equipe = () => {
             <div className={styles.equipe__team}>
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Leusten} alt='' />
-                    <p className={styles.equipe__name}>Leusten</p>
+                    <p className={styles.equipe__name}>Leo</p>
                     <p className={styles.equipe__description}>Marketing Digital</p>
                 </div>
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Leusten} alt='' />
-                    <p className={styles.equipe__name}>Leusten</p>
+                    <p className={styles.equipe__name}>Leo</p>
                     <p className={styles.equipe__description}>Marketing Digital</p>
                 </div>
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Leusten} alt='' />
-                    <p className={styles.equipe__name}>Leusten</p>
+                    <p className={styles.equipe__name}>Leo</p>
                     <p className={styles.equipe__description}>Marketing Digital</p>
                 </div>
             </div>

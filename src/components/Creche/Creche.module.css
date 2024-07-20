@@ -104,6 +104,14 @@
     margin: 7.25rem 0 0 0;
 }
 
+.creche_subtitle {
+    margin: .5rem 0 0 0;
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: "Rubik", sans-serif;
+    color: #1a212f;
+}
+
 .creche__pacotes {
     display: flex;
     flex-wrap: wrap;
@@ -206,10 +214,11 @@
 
     .creche__pacote__adendo {
         flex-direction: column;
+        margin: 2rem 1rem 0 1rem;
     }
 
     .creche__pacote__divisaoAdendo {
-        margin: 1rem 0 0 1.5rem;
+        margin: 1rem 1rem 1rem 1.5rem;
     }
 
     .creche__pacote__adendoTitulo {
