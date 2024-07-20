@@ -17,15 +17,6 @@ const Header = () => {
 
     const closeMenu = () => setMenu(false)
 
-    useEffect(() => {
-        const handleResize = () => setMenu(true)
-        window.addEventListener('resize', handleResize)
-
-        return () => {
-            window.removeEventListener('resize', handleResize)
-        }
-    }, [])
-
     return (
         <>
             <div className={styles.header__banner}></div>

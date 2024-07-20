@@ -43,4 +43,9 @@
     .banner__image {
         max-width: 25rem;
     }
+
+    .banner__subtitle {
+        margin: 0.95rem 1rem;
+
+    }
 }
