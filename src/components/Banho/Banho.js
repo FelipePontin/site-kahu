@@ -7,20 +7,30 @@ import IconePataBanho from '../../images/IconePataBanho.svg'
 
 import Title from "../Title/Title"
 
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import './styles.css'
+
+
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
 import Imagem1 from '../../images/Banho e Tosa/Imagem1.png'
 import Imagem2 from '../../images/Banho e Tosa/Imagem2.png'
 
-import './styles.css'
 
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules'
-
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
 
 const Banho = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <section className={styles.banho} id='banho'>
             <img className={styles.banho__icon} src={IconeBanhoeTosa} />
@@ -44,19 +54,10 @@ const Banho = () => {
                     </div>
                 </div>
                 <div className={styles.banho__atividades__swiper}>
-                    <Swiper
-                        navigation={true}
-                        loop={true}
-                        modules={[Navigation, Pagination]}
-                        className='swiper'
-                    >
-                        <SwiperSlide>
-                            <img className={styles.banho__atividades__imagem} src={Imagem1} alt='' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className={styles.banho__atividades__imagem} src={Imagem2} alt='' />
-                        </SwiperSlide>
-                    </Swiper>
+                    <Slider {...settings}>
+                        <img className={styles.banho__atividades__imagem} src={Imagem1} alt='' />
+                        <img className={styles.banho__atividades__imagem} src={Imagem2} alt='' />
+                    </Slider>
                 </div>
             </div>
         </section>

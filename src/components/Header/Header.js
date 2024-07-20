@@ -27,24 +27,28 @@ const Header = () => {
     }, [])
 
     return (
-        <BrowserRouter>
-            <header className={styles.header}>
-                <img className={styles.header__logo} src={KahuLogo} />
-                <nav className={styles.header__navigation}>
-                    {menu &&
-                        <ul className={`${styles.header__list}`}>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#'>Início</Link></li>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#servicos'>Serviços</Link></li>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#creche'>Creche</Link></li>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#hotel'>Hotel</Link></li>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#banho'>Banho e Tosa</Link></li>
-                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
-                        </ul>
-                    }
-                </nav>
-                <IoMenu onClick={handleMenu} className={styles.header__menu} />
-            </header>
-        </BrowserRouter>
+        <>
+            <div className={styles.header__banner}></div>
+            <BrowserRouter>
+                <header className={styles.header}>
+                    <img className={styles.header__logo} src={KahuLogo} />
+                    <nav className={styles.header__navigation}>
+                        {menu &&
+                            <ul className={`${styles.header__list}`}>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#'>Início</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#servicos'>Serviços</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#creche'>Creche</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#hotel'>Hotel</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#banho'>Banho e Tosa</Link></li>
+                                <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
+                            </ul>
+                        }
+                    </nav>
+                    <IoMenu onClick={handleMenu} className={styles.header__menu} />
+                </header>
+            </BrowserRouter>
+        </>
+
     )
 }
 

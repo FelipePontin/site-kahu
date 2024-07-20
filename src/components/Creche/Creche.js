@@ -5,22 +5,29 @@ import styles from './Creche.module.css'
 import IconeCreche from '../../images/IconeCreche.svg'
 import IconePata from '../../images/PataDegrade.svg'
 
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+import './styles.css'
+
 import Title from "../Title/Title"
 
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
 import ImagemAtividade1 from '../../images/Creche/Atividades/ImagemAtividade1.png'
 import ImagemAtividade2 from '../../images/Creche/Atividades/ImagemAtividade2.png'
 
-import './styles.css'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper/modules'
-
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
-
 const Creche = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
         <section className={styles.creche} id='creche'>
             <img className={styles.creche__icon} src={IconeCreche} />
@@ -53,19 +60,10 @@ const Creche = () => {
             </div>
             <div className={styles.creche__atividades}>
                 <div className={styles.creche__atividades__swiper}>
-                    <Swiper
-                        navigation={true}
-                        loop={true}
-                        modules={[Navigation, Pagination]}
-                        className='swiper'
-                    >
-                        <SwiperSlide>
-                            <img className={styles.creche__atividades__imagem} src={ImagemAtividade1} alt='' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className={styles.creche__atividades__imagem} src={ImagemAtividade2} alt='' />
-                        </SwiperSlide>
-                    </Swiper>
+                    <Slider {...settings}>
+                        <img className={styles.creche__atividades__imagem} src={ImagemAtividade1} alt='' />
+                        <img className={styles.creche__atividades__imagem} src={ImagemAtividade2} alt='' />
+                    </Slider>
                 </div>
                 <div className={styles.creche__atividades__divisao}>
                     <div className={styles.creche__atividades__titulo}>

@@ -18,6 +18,7 @@ const App = () => {
     return (
         <>
             <Header/>
+            <div className='header__banner'></div>
             <Banner/>
             <Servicos/>
             <ImageGallery/>
