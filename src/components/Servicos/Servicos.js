@@ -9,7 +9,7 @@ import IconeCreche from '../../images/IconeCreche.svg'
 import IconeHotel from '../../images/IconeHotel.svg'
 import IconeVeterinario from '../../images/IconeVeterinario.svg'
 
-import ImagemPataCachorro from '../../images/PataCachorro.svg'
+// import ImagemPataCachorro from '../../images/PataCachorro.svg'
 
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -39,7 +39,7 @@ const Servicos = () => {
                         <p className={styles.servicos__subtitulo}>No nosso Hotel Canino seu cão encontra todo o conforto e cuidado que ele merece enquanto está longe de você.</p>
                         <FaArrowRight className={styles.servicos__icone} />
                     </div>
-                    <img className={styles.servicos__imagemPata} src={ImagemPataCachorro} alt='' />
+                    {/* <img className={styles.servicos__imagemPata} src={ImagemPataCachorro} alt='' /> */}
                 </div>
                 <div className={styles.servicos__servico}>
                     <img className={styles.servicos__imagem} src={IconeVeterinario} alt='' />

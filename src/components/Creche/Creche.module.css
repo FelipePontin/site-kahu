@@ -211,4 +211,9 @@
     .creche__pacote__divisaoAdendo {
         margin: 1rem 0 0 1.5rem;
     }
+
+    .creche__pacote__adendoTitulo {
+        font-size: .9rem;
+        font-weight: bold;
+    }
 }
