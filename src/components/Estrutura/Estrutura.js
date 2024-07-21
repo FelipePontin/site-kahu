@@ -65,7 +65,7 @@ const Estrutura = () => {
                 <div className={styles.estrutura__titulo}>
                     <Title title='Estrutura e Ambiente' />
                 </div>
-                <p className={styles.estrutura__subtitle}>Planejamos uma estrutura focada no conforto, segurança e diversão para os cães. Contamos com uma área aberta, onde os cães podem correr e brincar livremente, sempre sob supervisão.</p>
+                <p className={styles.estrutura__subtitle}>Planejamos uma estrutura focada no conforto, segurança e diversão dos cães. Contamos com uma área aberta onde eles podem correr e brincar livremente, sempre sob supervisão.</p>
                 <img className={styles.estrutura__icone} src={IconeCachorro} alt='' />
             </div>
             <div className={styles.estrutura__atividades__swiper}>

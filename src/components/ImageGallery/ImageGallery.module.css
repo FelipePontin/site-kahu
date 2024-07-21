@@ -36,10 +36,9 @@
     }
     
     .image__gallery__content {
-        margin: 3.5rem 1rem 0 1rem;
+        margin: 3.5rem 2rem 0 2rem;
         width: 25rem;
     }
-
 }
 
 @media screen and (max-width: 625px) {

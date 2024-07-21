@@ -34,7 +34,7 @@ const Servicos = () => {
                     <Link className={styles.servicos__servico} smooth to='#creche'>
                         <img className={styles.servicos__imagem} src={IconeCreche} alt='' />
                         <p className={styles.servicos__titulo}>Creche Canina</p>
-                        <p className={styles.servicos__subtitulo}>Oferecemos um espaço completo para seu cão se divertir. Um ambiente seguro e cercado de profissionais que sabem e amam o que fazem.</p>
+                        <p className={styles.servicos__subtitulo}>Oferecemos um espaço completo para seu cão se divertir. Um ambiente seguro e cercado de profissionais qualificados que amam o que fazem.</p>
                         <FaArrowRight className={styles.servicos__icone} />
                     </Link>
                     <Link className={styles.servicos__servico} smooth to='#hotel'>
