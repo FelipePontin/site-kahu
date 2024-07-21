@@ -35,7 +35,7 @@ const Equipe = () => {
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Caio} alt='' />
                     <p className={styles.equipe__name}>Caio</p>
-                    <p className={styles.equipe__description}>Monitoror</p>
+                    <p className={styles.equipe__description}>Monitor</p>
                 </div>
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Lari} alt='' />

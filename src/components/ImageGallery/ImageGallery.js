@@ -27,7 +27,9 @@ const ImageGallery = () => {
 
     return (
         <section className={styles.image__gallery}>
-            <Title title='Momentos Felizes na Kahu' />
+            <div className={styles.image__title__division}>
+                <Title title='Momentos Felizes na Kahu' />
+            </div>
             <p className={styles.image__gallery__subtitle}>Confira algumas fotos dos nossos aulunos se divertindo e aproveitando cada momento na Kahu!</p>
             <Button text={'INSTAGRAM'} type={'green'} icon={'FaInstagram'} />
             <div className={styles.image__gallery__content}>

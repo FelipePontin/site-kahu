@@ -47,4 +47,8 @@
 
         text-align: center;
     }
+
+    .image__title__division {
+        margin: 0 .5rem;
+    }
 }
