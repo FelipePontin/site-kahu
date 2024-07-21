@@ -15,8 +15,12 @@ import './styles.css'
 import Title from "../Title/Title"
 
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
+import ImagemCreche2 from '../../images/Creche/ImagemCreche2.png'
+import ImagemCreche3 from '../../images/Creche/ImagemCreche3.png'
+
 import ImagemAtividade1 from '../../images/Creche/Atividades/ImagemAtividade1.png'
 import ImagemAtividade2 from '../../images/Creche/Atividades/ImagemAtividade2.png'
+import ImagemAtividade3 from '../../images/Creche/Atividades/ImagemAtividade3.png'
 
 const Creche = () => {
 
@@ -73,7 +77,7 @@ const Creche = () => {
                 </div>
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
-                        <img className={styles.creche__imagem} src={ImagemCreche1} alt='' />
+                        <img className={styles.creche__imagem} src={ImagemCreche2} alt='' />
                         <p className={styles.creche__titulo}>Amigos Felizes</p>
                         <p className={styles.creche__subtitulo}>Socialização, Brincadeiras Interativas e Supervisão Profissional na Nossa Creche Canina</p>
                     </div>
@@ -81,7 +85,7 @@ const Creche = () => {
                 </div>
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
-                        <img className={styles.creche__imagem} src={ImagemCreche1} alt='' />
+                        <img className={styles.creche__imagem} src={ImagemCreche3} alt='' />
                         <p className={styles.creche__titulo}>Dia Animado</p>
                         <p className={styles.creche__subtitulo}>Ambiente Seguro e Estimulante, com Atividades Planejadas para o Bem-Estar do Seu Cão na Creche Canina</p>
                     </div>
@@ -94,6 +98,7 @@ const Creche = () => {
                     <Slider {...settings}>
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade1} alt='' />
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade2} alt='' />
+                        <img className={styles.creche__atividades__imagem} src={ImagemAtividade3} alt='' />
                     </Slider>
                 </div>
                 <div className={styles.creche__atividades__divisao}>

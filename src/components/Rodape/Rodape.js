@@ -2,7 +2,7 @@ import React from "react"
 
 import styles from './Rodape.module.css'
 
-import ImagemBanner from '../../images/ImagemBanner.png'
+import Kahu from '../../images/Kahu.png'
 
 const Rodape = () => {
 
@@ -18,7 +18,7 @@ const Rodape = () => {
                     <p className={styles.rodape__info}>Temos estacionamento no local</p>
                     <p className={styles.rodape__contato}>Whatsapp: <a className={styles.rodape__telefone} href=''>(11) 97110-7188</a></p>
                 </div>
-                <img className={styles.banner__image} src={ImagemBanner} />
+                <img className={styles.banner__image} src={Kahu} />
             </div>
             <p className={styles.banner__copyright}>©{anoAtual} All Rights Reserved.</p>
         </section>

@@ -17,6 +17,7 @@
 
 .image__gallery__image {
     width: 15rem;
+    height: 100%;
 }
 
 .image__gallery__content {

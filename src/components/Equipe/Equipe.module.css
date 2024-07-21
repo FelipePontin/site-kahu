@@ -10,9 +10,13 @@
 }
 
 .equipe__team {
-    margin: 2.5rem 0 0 0;
+    margin: 2.5rem auto 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
 }
 
 .equipe__people {
@@ -23,6 +27,8 @@
 }
 
 .equipe__image {
+    width: 15rem;
+    height: 20rem;
     border-radius: 0.75rem;
 }
 

@@ -15,6 +15,9 @@ import IconeCachorro from '../../images/IconeCachorro.svg'
 
 import Estrutura1 from '../../images/Estrutura/Estrutura1.png'
 import Estrutura2 from '../../images/Estrutura/Estrutura2.png'
+import Estrutura3 from '../../images/Estrutura/Estrutura3.png'
+import Estrutura4 from '../../images/Estrutura/Estrutura4.png'
+import Estrutura5 from '../../images/Estrutura/Estrutura5.png'
 
 const Estrutura = () => {
 
@@ -34,7 +37,6 @@ const Estrutura = () => {
         );
     };
 
-    // Estilos para as setas
     const arrowStyle = {
         position: 'absolute',
         top: '50%',
@@ -69,7 +71,10 @@ const Estrutura = () => {
             <div className={styles.estrutura__atividades__swiper}>
                 <Slider {...settings}>
                     <img className={styles.estrutura__atividades__imagem} src={Estrutura1} alt='' />
+                    <img className={styles.estrutura__atividades__imagem} src={Estrutura4} alt='' />
                     <img className={styles.estrutura__atividades__imagem} src={Estrutura2} alt='' />
+                    <img className={styles.estrutura__atividades__imagem} src={Estrutura5} alt='' />
+                    <img className={styles.estrutura__atividades__imagem} src={Estrutura3} alt='' />
                 </Slider>
             </div>
         </section>
