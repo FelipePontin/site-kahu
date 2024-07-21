@@ -49,7 +49,7 @@ const Hotel = () => {
                 </div>
             </div>
             <div className={styles.hotel__precos}>
-                <Title title={'Preços hotel canino'} />
+                <Title title={'Preços Hotel Canino'} />
                 <div className={styles.hotel__pacotes}>
                     {/* <div className={styles.hotel__pacote}>
                         <p className={styles.hotel__pacote__titulo}>DIÁRIA AVULSO</p>

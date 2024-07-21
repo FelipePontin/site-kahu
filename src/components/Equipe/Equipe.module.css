@@ -28,7 +28,7 @@
 
 .equipe__image {
     width: 15rem;
-    height: 20rem;
+    height: auto;
     border-radius: 0.75rem;
 }
 

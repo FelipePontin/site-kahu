@@ -29,7 +29,7 @@ const App = () => {
             <ImageGallery/>
             <CardInfo
                 title='Não deixe seu Pet sozinho!'
-                subtitle='Desfrute do seu dia, cuidamos do seu cachorrinho enquanto você sai! Entre em contato e saiba como a Kahu pode ajudar com nossos serviços de Creche e Hotel. Viaje tranquilo e sem preocupações.'
+                subtitle='Cuidamos do seu cãozinho enquanto você sai! Entre em contato e saiba como a Kahu pode ajudar com nossos serviços de creche e hotel.'
                 textButton='Entre em contato'
                 icone='IoPaw'
             />

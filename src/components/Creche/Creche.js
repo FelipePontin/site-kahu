@@ -109,7 +109,7 @@ const Creche = () => {
                 </div>
             </div>
             <div className={styles.creche__precos}>
-                <Title title={'Preços creche'} />
+                <Title title={'Preços Creche'} />
                 <p className={styles.creche_subtitle}>(Pacotes mensais)</p>
                 <div className={styles.creche__pacotes}>
                     <div className={styles.creche__pacote}>

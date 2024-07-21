@@ -14,7 +14,7 @@ import './styles.css'
 import IconeCachorro from '../../images/IconeCachorro.svg'
 
 import Estrutura1 from '../../images/Estrutura/Estrutura1.png'
-import Estrutura2 from '../../images/Estrutura/Estrutura2.png'
+import Estrutura2 from '../../images/Estrutura/Estrutura2.jpg'
 import Estrutura3 from '../../images/Estrutura/Estrutura3.png'
 import Estrutura4 from '../../images/Estrutura/Estrutura4.png'
 import Estrutura5 from '../../images/Estrutura/Estrutura5.png'
@@ -65,7 +65,7 @@ const Estrutura = () => {
                 <div className={styles.estrutura__titulo}>
                     <Title title='Estrutura e Ambiente' />
                 </div>
-                <p className={styles.estrutura__subtitle}>Nosso espaço é cuidadosamente planejado para oferecer conforto, segurança e diversão aos cães. Contamos com amplas áreas de recreação ao ar livre, onde os pets podem correr e brincar livremente, sempre sob supervisão.</p>
+                <p className={styles.estrutura__subtitle}>Planejamos uma estrutura focada no conforto, segurança e diversão para os cães. Contamos com uma área aberta, onde os cães podem correr e brincar livremente, sempre sob supervisão.</p>
                 <img className={styles.estrutura__icone} src={IconeCachorro} alt='' />
             </div>
             <div className={styles.estrutura__atividades__swiper}>

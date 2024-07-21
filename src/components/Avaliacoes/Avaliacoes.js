@@ -7,21 +7,18 @@ import Title from "../Title/Title"
 const Avaliacoes = () => {
 
     const cards = [
-        { id: 1, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 2, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 3, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 4, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 5, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 6, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 7, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 8, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 9, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin' },
-        { id: 10, text: 'A Kahu é incrível em todos os detalhes!', user: '@felipepontin'}
+        { id: 1, text: `A Kahu é incrível. A equipe e o tratamento especial que eles dão a cada um dos cachorros é simplesmente maravilhoso. Meu cachorro ama, volta sempre feliz para casa. Nunca tivemos nenhuma ocorrência de brigas, de atritos ou conflitos. Pelo contrário, a adaptação é ótima e todo o tratamento da equipe perfeito!`, user: '@Vitor Richner' },
+        { id: 2, text: `Só tenho palavras de GRATIDÃO! Cheguei até vocês através de uma indicação e logo na sequência fui surpreendida pelo cuidado e carinho que tiveram com o meu pet. Eu sempre digo que onde existe amor, há cuidado, e vocês estão de parabéns! Podem ter certeza que não só continuarei deixando o Nick, como também irei indicar de olhos fechados!`, user: '@Rebeca Coutinho' },
+        { id: 3, text: `Os dias da Paçoca na creche com toda a certeza estão mais felizes. É nítida a referência positiva que a Kahu faz no desenvolvimento dela e no dia a dia. A Paçó tem apenas 6 meses e ela está amando a Kahu com toda a força dela hahaha O time deles é MUITO atencioso e amoroso com a Paçoca. Ah, e eles mandam fotos e vídeos durante a estadia. Recomendo e muito! 💚`, user: '@ALESSANDRA BRAGA' },
+        { id: 4, text: `Melhor creche! Cuidam com muito amor e carinho! Cuidam dos pets individualmente dos cachorros, entendendo a necessidade de cada um! O meu cachorro é grande e eles compram até pneu para ele brincar, ele ama! Além disso, ele ama muito estar lá, ele chega sempre muito feliz e sai correndo de alegria pra entrar!`, user: '@vitoria capeletti batan' },
+        { id: 5, text: `Só tenho palavras de GRATIDÃO! Cheguei até vocês através de uma indicação e logo na sequência fui surpreendida pelo cuidado e carinho que tiveram com o meu pet. Eu sempre digo que onde existe amor, há cuidado, e vocês estão de parabéns! Podem ter certeza que não só continuarei deixando o Nick, como também irei indicar de olhos fechados!`, user: '@Rebeca Coutinho' },
+        { id: 6, text: `Equipe super gentil e profissional. Sempre cuidando muito bem da nossa Florinha. Ficamos totalmente seguros de deixar ela aos cuidados da Kahu durante o dia na creche e em serviço de hotel quando precisamos.`, user: '@Mateus Kleinsorgen' },
+        { id: 7, text: ` Ótimo lugar para deixar o seu pet. Pessoal muito atencioso, cuidadoso e extremamente empenhado deixar o cachorro o mais tranquilo possível. Estão todos de parabéns. Me sinto muito feliz em ter encontrado esse lugar. Além de ter um ótimo preço.`, user: '@Mateus Kleinsorgen' },
       ];
-    
+     
       return (
         <div className={styles.avaliacoes}>
-          <Title title='As nossas avaliações 😊' />
+          <Title title='As Nossas Avaliações 😊' />
           <p className={styles.avaliacao__subtitle}>Veja o que estão falando da gente</p>
           <div className={styles.avaliacao__container}>
             <div className={styles.avaliacao__track}>

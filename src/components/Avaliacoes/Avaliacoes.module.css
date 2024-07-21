@@ -33,7 +33,7 @@
 
 .avaliacao__card {
   flex: 0 0 250px; /* Definindo largura fixa dos cards */
-  height: 5.5rem;
+  height: auto;
   padding: 1rem 1rem;
   background: rgba(180, 207, 177, 0.767);
   color: #1a212f;

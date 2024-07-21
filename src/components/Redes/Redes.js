@@ -10,7 +10,7 @@ const Redes = () => {
 
     return (
         <section className={styles.redes}>
-            <Title title='Nos acompanhe nas redes sociais' className={styles.redes__title} />
+            <Title title='Nos Acompanhe Nas Redes Sociais' className={styles.redes__title} />
             <div className={styles.redes__container}>
                 <div className={`${styles.redes__division} ${styles.redes__instagram}`}>
                     <FaInstagram className={styles.redes__icon} />

@@ -13,7 +13,7 @@ const Rodape = () => {
         <section className={styles.rodape}>
             <div className={styles.rodape__container}>
                 <div className={styles.rodape__divison}>
-                    <p className={styles.rodape__titulo}>Como chegar?</p>
+                    <p className={styles.rodape__titulo}>Como Chegar?</p>
                     <p className={styles.rodape__endereco}>Rua Dr. Gabriel dos Santos, 55 - Higienópolis - São Paulo, SP </p>
                     <p className={styles.rodape__info}>Temos estacionamento no local</p>
                     <p className={styles.rodape__contato}>Whatsapp: <a className={styles.rodape__telefone} href=''>(11) 97110-7188</a></p>
