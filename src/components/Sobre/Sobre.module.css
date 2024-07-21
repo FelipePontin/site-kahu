@@ -101,3 +101,10 @@
         font-family: "Lato", sans-serif;
     }
 }
+
+@media screen and (max-width: 625px) {
+    .sobre__subtitulo {
+        margin: 1rem 2rem 1rem 2rem;
+        text-align: justify;
+    }
+}

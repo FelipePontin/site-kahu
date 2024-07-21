@@ -49,3 +49,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 625px) {
+    .equipe__title {
+        margin: 1rem 2rem 1rem 2rem;
+        text-align: center;
+    }
+}

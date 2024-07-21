@@ -4,3 +4,9 @@
     font-family: "Rubik", sans-serif;
     color: #1a212f;
 }
+
+@media screen and (max-width: 625px) {
+    .title {
+        margin: 0 1rem;
+    }
+}

@@ -46,6 +46,7 @@
 
     .banner__subtitle {
         width: 20rem;
-        margin: 0.95rem 1rem;
+        font-size: 1rem;
+        margin: 1.5rem 1rem;
     }
 }

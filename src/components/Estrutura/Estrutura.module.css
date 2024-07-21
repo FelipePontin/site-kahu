@@ -13,6 +13,8 @@
 .estrutura__divisao {
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     z-index: 1;
@@ -55,5 +57,12 @@
     .estrutura__atividades__swiper {
         width: 22.5rem;
         margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .estrutura__subtitle {
+        margin: 1rem 2rem 0 2rem;
+        text-align: justify;
     }
 }
