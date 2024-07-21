@@ -30,6 +30,7 @@
 .header__list {
     display: flex;
     align-items: center;
+    transition: 1s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .header__item {
@@ -78,6 +79,19 @@
     .header__list {
         position: fixed;
         top: 0;
+        right: -100vh;
+        height: 100%;
+        background: #ffffff;
+        width: 15rem;
+        padding: 5rem 0 0 0;
+        flex-direction: column;
+        z-index: 9999;
+        box-shadow: -10px -6px 15px -3px rgba(0,0,0,0.1);
+    }
+
+    .header__list__open {
+        position: fixed;
+        top: 0;
         right: 0;
         height: 100%;
         background: #ffffff;
@@ -93,6 +107,7 @@
     }
 
     .header__item {
+        text-align: center;
         margin: 1.25rem 0;
     }
 
@@ -105,6 +120,10 @@
     }
 
     .header__icons__division {
-        margin: 1rem 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem auto 0 auto;
     }
 }
