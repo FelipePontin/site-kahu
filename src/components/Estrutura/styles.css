@@ -1,0 +1,39 @@
+.slick-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.slick-dots .slick-active button {
+    background-color: #fff;
+}

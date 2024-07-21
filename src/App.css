@@ -1,0 +1,15 @@
+.botao__whatsapp {
+    border-radius: 100%;
+    position: fixed;
+    padding: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+    background: #25d366;
+    z-index: 999;
+}
+
+.icone__whatsapp {
+    color: #ffffff;
+    font-size: 2.5rem;
+}

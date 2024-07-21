@@ -3,6 +3,7 @@ import React from "react"
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
 import Servicos from './components/Servicos/Servicos'
+import Estrutura from "./components/Estrutura/Estrutura"
 import ImageGallery from "./components/ImageGallery/ImageGallery"
 import CardInfo from "./components/CardInfo/CardInfo"
 import Creche from "./components/Creche/Creche"
@@ -13,6 +14,9 @@ import Equipe from "./components/Equipe/Equipe"
 import Avaliacoes from "./components/Avaliacoes/Avaliacoes"
 import Redes from "./components/Redes/Redes"
 import Rodape from "./components/Rodape/Rodape"
+import { FaWhatsapp } from "react-icons/fa";
+
+import './App.css'
 
 const App = () => {
     return (
@@ -21,6 +25,7 @@ const App = () => {
             <div className='header__banner'></div>
             <Banner/>
             <Servicos/>
+            <Estrutura/>
             <ImageGallery/>
             <CardInfo
                 title='Não deixe seu Pet sozinho!'
@@ -42,6 +47,9 @@ const App = () => {
             <Avaliacoes/>
             <Redes/>
             <Rodape/>
+            <div className='botao__whatsapp'>
+                <FaWhatsapp className='icone__whatsapp'/>
+            </div>
         </>
     )
 }

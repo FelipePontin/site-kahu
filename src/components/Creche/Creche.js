@@ -20,12 +20,42 @@ import ImagemAtividade2 from '../../images/Creche/Atividades/ImagemAtividade2.pn
 
 const Creche = () => {
 
+    const PrevArrow = (props) => {
+        const { className, onClick } = props;
+        return (
+            <div className={className} onClick={onClick} style={{ ...arrowStyle, left: '10px' }}>
+            </div>
+        );
+    };
+
+    const NextArrow = (props) => {
+        const { className, onClick } = props;
+        return (
+            <div className={className} onClick={onClick} style={{ ...arrowStyle, right: '10px' }}>
+            </div>
+        );
+    };
+
+    const arrowStyle = {
+        position: 'absolute',
+        top: '50%',
+        fontSize: '24px',
+        color: '#000',
+        cursor: 'pointer',
+        zIndex: 1,
+        borderRadius: '50%',
+        padding: '10px',
+        transform: 'translateY(-50%)'
+    };
+
     var settings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        prevArrow: <PrevArrow />,
+        nextArrow: <NextArrow />
     };
 
     return (
@@ -108,13 +138,13 @@ const Creche = () => {
                         <p className={styles.creche__pacote__preco}>R$ 350,00</p>
                     </div>
                 </div>
-                <div className={styles.creche__pacote__adendo}>
+                {/* <div className={styles.creche__pacote__adendo}>
                     <img className={styles.creche__pacote__imagem} src={IconePata} alt='' />
                     <div className={styles.creche__pacote__divisaoAdendo}>
                         <p className={styles.creche__pacote__adendoTitulo}>MEIA DIÁRIA (7H as 13H ou 13H as 19H) - 80% DO VALOR INTEGRAL</p>
                         <p className={styles.creche__pacote__adendoSubtitulo}>Não trabalhamos com diárias avulsas</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

@@ -51,11 +51,11 @@ const Hotel = () => {
             <div className={styles.hotel__precos}>
                 <Title title={'Preços hotel canino'} />
                 <div className={styles.hotel__pacotes}>
-                    <div className={styles.hotel__pacote}>
+                    {/* <div className={styles.hotel__pacote}>
                         <p className={styles.hotel__pacote__titulo}>DIÁRIA AVULSO</p>
                         <p className={styles.hotel__pacote__subtitulo}>Deixe o seu cachorro o dia inteiro na creche.</p>
                         <p className={styles.hotel__pacote__preco}>R$ 150,00</p>
-                    </div>
+                    </div> */}
                     <div className={styles.hotel__pacote}>
                         <p className={styles.hotel__pacote__titulo}>A PARTIR DE 3 DIAS</p>
                         <p className={styles.hotel__pacote__subtitulo}>Deixe seu cachorro a partir de 3 dias na creche.</p>
