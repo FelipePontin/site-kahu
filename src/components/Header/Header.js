@@ -15,21 +15,24 @@ import { HashLink as Link } from 'react-router-hash-link'
 const Header = () => {
 
     const [menu, setMenu] = useState(true)
+    const [menuClass, setMenuClass] = useState(styles.header__list);
 
     const handleMenu = () => setMenu(!menu)
 
     const closeMenu = () => setMenu(false)
 
     useEffect(() => {
-        const handleResize = () => setMenu(true);
-        window.addEventListener('resize', handleResize);
+        const updateMenuClass = () => {
+            setMenuClass(menu && window.innerWidth < 1000 ? styles.header__list__open : styles.header__list);
+        };
+
+        updateMenuClass(); // Atualiza a classe inicialmente
+        window.addEventListener('resize', updateMenuClass); // Atualiza a classe ao redimensionar
 
         return () => {
-            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('resize', updateMenuClass); // Limpa o event listener ao desmontar
         };
-    }, []);
-
-    const menuClass = menu ? styles.header__list : styles.header__list__open
+    }, [menu]);
 
     return (
         <>
@@ -38,7 +41,7 @@ const Header = () => {
                 <header className={styles.header}>
                     <img className={styles.header__logo} src={KahuLogo} />
                     <nav className={styles.header__navigation}>
-                        <ul className={menuClass}>
+                        <ul className={`${menuClass} `}>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#inicio'>Início</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#servicos'>Serviços</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#creche'>Creche</Link></li>
