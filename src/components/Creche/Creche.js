@@ -108,7 +108,7 @@ const Creche = () => {
                     <p className={styles.creche__atividades__explicacao}>Atividades interativas, jogos para <span className={styles.creche__atividades__destaque}>estimulação física e mental, exercícios de obediência e habilidades</span>, além de encontros supervisionados para promover amizades e comportamento positivo.</p>
                 </div>
             </div>
-            <div className={styles.creche__precos}>
+            {/* <div className={styles.creche__precos}>
                 <Title title={'Preços Creche'} />
                 <p className={styles.creche_subtitle}>(Pacotes mensais)</p>
                 <div className={styles.creche__pacotes}>
@@ -143,14 +143,14 @@ const Creche = () => {
                         <p className={styles.creche__pacote__preco}>R$ 350,00</p>
                     </div>
                 </div>
-                {/* <div className={styles.creche__pacote__adendo}>
+                <div className={styles.creche__pacote__adendo}>
                     <img className={styles.creche__pacote__imagem} src={IconePata} alt='' />
                     <div className={styles.creche__pacote__divisaoAdendo}>
                         <p className={styles.creche__pacote__adendoTitulo}>MEIA DIÁRIA (7H as 13H ou 13H as 19H) - 80% DO VALOR INTEGRAL</p>
                         <p className={styles.creche__pacote__adendoSubtitulo}>Não trabalhamos com diárias avulsas</p>
                     </div>
-                </div> */}
-            </div>
+                </div>
+            </div> */}
         </section>
     )
 }
