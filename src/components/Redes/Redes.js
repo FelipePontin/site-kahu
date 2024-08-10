@@ -4,7 +4,7 @@ import styles from './Redes.module.css'
 
 import Title from "../Title/Title"
 
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Redes = () => {
 
@@ -20,7 +20,10 @@ const Redes = () => {
                     <FaTiktok className={styles.redes__icon} />
                     <p className={styles.redes__name}>Tiktok</p>
                 </div>
-
+                <div className={`${styles.redes__division} ${styles.redes__youtube}`}>
+                    <FaYoutube className={styles.redes__icon} />
+                    <p className={styles.redes__name}>Youtube</p>
+                </div>
             </div>
         </section>
     )

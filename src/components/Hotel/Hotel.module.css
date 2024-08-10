@@ -15,6 +15,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 4rem 0 0 0;
 }
 
@@ -134,9 +135,6 @@
 }
 
 @media screen and (max-width: 1430px) {
-    .hotel__cards {
-        flex-direction: column;
-    }
 
     .hotel__card {
         margin: 1rem;

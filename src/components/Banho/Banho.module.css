@@ -3,11 +3,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 6rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 
 .banho__atividades__imagem {
     border-radius: 1rem;
+}
+
+.banho__imagem {
+    width: 4.5rem;
 }
 
 .banho__atividades__swiper {

@@ -26,11 +26,11 @@ const Header = () => {
             setMenuClass(menu && window.innerWidth < 1000 ? styles.header__list__open : styles.header__list);
         };
 
-        updateMenuClass(); // Atualiza a classe inicialmente
-        window.addEventListener('resize', updateMenuClass); // Atualiza a classe ao redimensionar
+        updateMenuClass();
+        window.addEventListener('resize', updateMenuClass);
 
         return () => {
-            window.removeEventListener('resize', updateMenuClass); // Limpa o event listener ao desmontar
+            window.removeEventListener('resize', updateMenuClass);
         };
     }, [menu]);
 
@@ -49,9 +49,21 @@ const Header = () => {
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#banho'>Banho e Tosa</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
                             <div className={styles.header__icons__division}>
-                                <FaInstagram className={styles.header__icon} />
-                                <FaTiktok className={styles.header__icon} />
-                                <FaWhatsapp className={styles.header__icon} />
+                                <a href='https://www.instagram.com/kahu.larpet/'>
+                                    <div className={styles.header__divisio__icon}>
+                                        <FaInstagram className={styles.header__icon} />
+                                    </div>
+                                </a>
+                                <a href='https://www.tiktok.com/@kahu.higienopolis'>
+                                    <div className={styles.header__divisio__icon}>
+                                        <FaTiktok className={styles.header__icon} />
+                                    </div>
+                                </a>
+                                <a href='https://api.whatsapp.com/send?phone=5511971107188&text=Olá!'>
+                                    <div className={styles.header__divisio__icon}>
+                                        <FaWhatsapp className={styles.header__icon} />
+                                    </div>
+                                </a>
                             </div>
                         </ul>
                     </nav>

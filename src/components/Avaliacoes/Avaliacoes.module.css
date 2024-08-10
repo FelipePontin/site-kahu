@@ -1,3 +1,9 @@
+.avaliacoes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .avaliacao__subtitle {
   font-size: 1.15rem;
   margin: .5rem 0 2rem 0;
@@ -37,7 +43,7 @@
 }
 
 .avaliacao__card {
-  flex: 0 0 250px; /* Definindo largura fixa dos cards */
+  flex: 0 0 250px;
   height: auto;
   padding: 1rem 1rem;
   background: rgba(180, 207, 177, 0.767);
@@ -52,7 +58,8 @@
 
 .avaliacao__text {
   margin: 1.5rem 0 0 0;
-  font-weight: bold;
+  line-height: 1.35rem;
+  padding: 0 .25rem;
   font-family: "Rubik", sans-serif;
 }
 

@@ -38,11 +38,17 @@
     transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+.header__divisio__icon {
+}
+
 .header__icon {
-    margin: 0 .5rem;
+    margin: .45rem .25rem 0 .25rem;
+    padding: .5rem;
+    border-radius: 10rem;
     font-size: 1.25rem;
     cursor: pointer;
-    color: #1a212f;
+    color: #ffffff;
+    background: rgba(146, 172, 144, 0.767);
     transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
