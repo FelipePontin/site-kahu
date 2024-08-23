@@ -21,16 +21,16 @@ const Hotel = () => {
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Acompanhamento</p>
-                            <p className={styles.hotel__subtitulo}>Acompanhamento 24h com um membro da equipe.</p>
+                            <p className={styles.hotel__titulo}>Rotina</p>
+                            <p className={styles.hotel__subtitulo}>Durante o dia o seu cachorro participa da rotina da creche.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Rotina</p>
-                            <p className={styles.hotel__subtitulo}>Durante o dia o seu cachorro participa da rotina da creche.</p>
+                            <p className={styles.hotel__titulo}>Filtro</p>
+                            <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos companheiros</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
@@ -45,10 +45,11 @@ const Hotel = () => {
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
                     <div className={styles.hotel__card}>
+
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Filtro</p>
-                            <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos companheiros</p>
+                            <p className={styles.hotel__titulo}>Acompanhamento</p>
+                            <p className={styles.hotel__subtitulo}>Acompanhamento 24h com um membro da equipe.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
