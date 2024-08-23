@@ -78,7 +78,7 @@ const Creche = () => {
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche2} alt='' />
-                        <p className={styles.creche__titulo}>Amigos Felizes</p>
+                        <p className={styles.creche__titulo}>Pets Felizes</p>
                         <p className={styles.creche__subtitulo}>Socialização, Brincadeiras Interativas e Supervisão Profissional na Nossa Creche Canina</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}

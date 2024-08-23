@@ -9,35 +9,49 @@ import Title from "../Title/Title"
 
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
 
+import Check from '../../images/CHECK.png'
+
 const Hotel = () => {
     return (
         <section className={styles.hotel} id='hotel'>
             <img className={styles.hotel__icon} src={IconeCreche} />
             <Title title={'Hotel Canino'} />
             <div className={styles.hotel__cards}>
-                <div className={styles.hotel__card}>
-                    <div className={styles.hotel__cardDivision}>
-                        <img className={styles.hotel__imagem} src={ImagemCreche1} alt='' />
-                        <p className={styles.hotel__titulo}>Diárias</p>
-                        <p className={styles.hotel__subtitulo}>As diárias são de 24 horas, com supervisão noturna constante por um membro da equipe.</p>
+                <div>
+                    <div className={styles.hotel__card}>
+                        <div className={styles.hotel__cardDivision}>
+                            <img className={styles.banho__imagem} src={Check} alt='' />
+                            <p className={styles.hotel__titulo}>Acompanhamento</p>
+                            <p className={styles.hotel__subtitulo}>Acompanhamento 24h com um membro da equipe.</p>
+                        </div>
+                        {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
-                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
+                    <div className={styles.hotel__card}>
+                        <div className={styles.hotel__cardDivision}>
+                            <img className={styles.banho__imagem} src={Check} alt='' />
+                            <p className={styles.hotel__titulo}>Rotina</p>
+                            <p className={styles.hotel__subtitulo}>Durante o dia o seu cachorro participa da rotina da creche.</p>
+                        </div>
+                        {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
+                    </div>
                 </div>
-                <div className={styles.hotel__card}>
-                    <div className={styles.hotel__cardDivision}>
-                        <img className={styles.hotel__imagem} src={ImagemCreche1} alt='' />
-                        <p className={styles.hotel__titulo}>Quartos</p>
-                        <p className={styles.hotel__subtitulo}>Nossos quartos são arejados com camas individuais para cada hóspede e são higienizados diariamente.</p>
+                <div>
+                    <div className={styles.hotel__card}>
+                        <div className={styles.hotel__cardDivision}>
+                            <img className={styles.banho__imagem} src={Check} alt='' />
+                            <p className={styles.hotel__titulo}>Camas</p>
+                            <p className={styles.hotel__subtitulo}>Camas individuais, com colchões adaptados para o peso e tamanho de cada pet, que passam por higienização diária.</p>
+                        </div>
+                        {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
-                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
-                </div>
-                <div className={styles.hotel__card}>
-                    <div className={styles.hotel__cardDivision}>
-                        <img className={styles.hotel__imagem} src={ImagemCreche1} alt='' />
-                        <p className={styles.hotel__titulo}>Lençóis</p>
-                        <p className={styles.hotel__subtitulo}>Os lençóis são de algodão hipoalergênicos, lavados a cada hóspede ou a cada 3 dias.</p>
+                    <div className={styles.hotel__card}>
+                        <div className={styles.hotel__cardDivision}>
+                            <img className={styles.banho__imagem} src={Check} alt='' />
+                            <p className={styles.hotel__titulo}>Filtro</p>
+                            <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos companheiros</p>
+                        </div>
+                        {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
-                    {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                 </div>
             </div>
             {/* <div className={styles.hotel__precos}>

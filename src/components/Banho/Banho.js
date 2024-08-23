@@ -16,8 +16,11 @@ import './styles.css'
 
 
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
-import Imagem1 from '../../images/Banho e Tosa/Imagem1.png'
-import Imagem2 from '../../images/Banho e Tosa/Imagem2.png'
+import Imagem1 from '../../images/Banho e Tosa/Imagem1.svg'
+import Imagem2 from '../../images/Banho e Tosa/Imagem2.svg'
+import Imagem3 from '../../images/Banho e Tosa/Imagem3.svg'
+import Imagem4 from '../../images/Banho e Tosa/Imagem4.svg'
+
 import Check from '../../images/CHECK.png'
 
 
@@ -87,6 +90,8 @@ const Banho = () => {
                     <Slider {...settings}>
                         <img className={styles.banho__atividades__imagem} src={Imagem1} alt='' />
                         <img className={styles.banho__atividades__imagem} src={Imagem2} alt='' />
+                        <img className={styles.banho__atividades__imagem} src={Imagem3} alt='' />
+                        <img className={styles.banho__atividades__imagem} src={Imagem4} alt='' />
                     </Slider>
                 </div>
             </div>

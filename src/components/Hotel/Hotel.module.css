@@ -19,13 +19,16 @@
     margin: 4rem 0 0 0;
 }
 
+.banho__imagem {
+    width: 4.5rem;
+}
+
 .hotel__card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 20rem;
-    height: 23.5rem;
-    margin: 0 1rem;
+    margin: 1rem 2rem;
 }
 
 .hotel__imagem {
@@ -137,7 +140,7 @@
 @media screen and (max-width: 1430px) {
 
     .hotel__card {
-        margin: 1rem;
+        
     }
 
     .hotel__atividades {
