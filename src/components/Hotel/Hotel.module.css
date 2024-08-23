@@ -29,6 +29,12 @@
     justify-content: space-between;
     max-width: 20rem;
     margin: 1rem 2rem;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    width: 18.5rem;
+    height: 13.45rem;
+    box-shadow: 1px 0px 31px 3px rgba(168, 168, 168, 0.288);
+    transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .hotel__imagem {
