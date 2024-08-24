@@ -9,6 +9,7 @@ import CardInfo from "./components/CardInfo/CardInfo"
 import Creche from "./components/Creche/Creche"
 import Hotel from './components/Hotel/Hotel'
 import Banho from './components/Banho/Banho'
+import Consultar from "./components/Consultar/Consultar"
 import Sobre from './components/Sobre/Sobre'
 import Equipe from "./components/Equipe/Equipe"
 import Avaliacoes from "./components/Avaliacoes/Avaliacoes"
@@ -37,6 +38,7 @@ const App = () => {
             <Creche />
             <Hotel />
             <Banho />
+            <Consultar />
             <Sobre />
             <Equipe />
             <CardInfo

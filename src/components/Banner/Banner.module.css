@@ -12,6 +12,10 @@
     color: #1a212f;
 }
 
+.banner__botao {
+    width: max-content;
+}
+
 .banner__subtitle {
     width: 25rem;
     font-size: 1.05rem;

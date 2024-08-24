@@ -29,7 +29,7 @@ const Hotel = () => {
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Filtro</p>
+                            <p className={styles.hotel__titulo}>Filtro De Ar</p>
                             <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos companheiros</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
@@ -39,7 +39,7 @@ const Hotel = () => {
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Camas</p>
+                            <p className={styles.hotel__titulo}>Camas Individuais</p>
                             <p className={styles.hotel__subtitulo}>Camas individuais, com colchões adaptados para o peso e tamanho de cada pet, que passam por higienização diária.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
