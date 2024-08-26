@@ -21,6 +21,8 @@ import ImagemCreche3 from '../../images/Creche/ImagemCreche3.png'
 import ImagemAtividade1 from '../../images/Creche/Atividades/ImagemAtividade1.png'
 import ImagemAtividade2 from '../../images/Creche/Atividades/ImagemAtividade2.png'
 import ImagemAtividade3 from '../../images/Creche/Atividades/ImagemAtividade3.png'
+import ImagemAtividade4 from '../../images/Creche/Atividades/ImagemAtividade4.png'
+import ImagemAtividade5 from '../../images/Creche/Atividades/ImagemAtividade5.png'
 
 const Creche = () => {
 
@@ -70,7 +72,7 @@ const Creche = () => {
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche1} alt='' />
-                        <p className={styles.creche__titulo}>Diversão Diária</p>
+                        <p className={styles.creche__titulo}>Socialização e Convívio</p>
                         <p className={styles.creche__subtitulo}>Creche Canina com Atividades, Cuidados Especializados e Muito Amor para Seu Melhor Amigo</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
@@ -78,7 +80,7 @@ const Creche = () => {
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche2} alt='' />
-                        <p className={styles.creche__titulo}>Pets Felizes</p>
+                        <p className={styles.creche__titulo}>Exercícios Físicos e Mentais</p>
                         <p className={styles.creche__subtitulo}>Socialização, Brincadeiras Interativas e Supervisão Profissional na Nossa Creche Canina</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
@@ -86,7 +88,7 @@ const Creche = () => {
                 <div className={styles.creche__card}>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche3} alt='' />
-                        <p className={styles.creche__titulo}>Dia Animado</p>
+                        <p className={styles.creche__titulo}>Supervisão Profissional</p>
                         <p className={styles.creche__subtitulo}>Ambiente Seguro e Estimulante, com Atividades Planejadas para o Bem-Estar do Seu Cão na Creche Canina</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
@@ -99,6 +101,9 @@ const Creche = () => {
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade1} alt='' />
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade2} alt='' />
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade3} alt='' />
+                        <img className={styles.creche__atividades__imagem} src={ImagemAtividade4} alt='' />
+                        <img className={styles.creche__atividades__imagem} src={ImagemAtividade5} alt='' />
+
                     </Slider>
                 </div>
                 <div className={styles.creche__atividades__divisao}>

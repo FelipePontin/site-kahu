@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(135, 160, 132);
-    background: linear-gradient(102deg, rgba(135, 160, 132, 1) 0%, rgba(183, 230, 185, 1) 100%);
+    background: rgb(142,160,132);
+    background: linear-gradient(343deg, rgba(142,160,132,1) 0%, rgba(183,230,185,1) 100%);
+
 }
 
 .banner__title {
