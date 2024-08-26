@@ -38,7 +38,7 @@ const App = () => {
             <Creche />
             <Hotel />
             <Banho />
-            <Consultar />
+            {/* <Consultar /> */}
             <Sobre />
             <Equipe />
             <CardInfo
