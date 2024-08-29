@@ -72,18 +72,38 @@ const Banho = () => {
                 <div className={styles.banho__infos}>
                     <div className={styles.banho__info}>
                         <img className={styles.banho__imagem} src={Check} alt='' />
-                        <p className={styles.banho__titulo}>Transformação Pet</p>
-                        <p className={styles.banho__subtitulo}>Serviços de Banho e Tosa para o Bem-Estar e Beleza do Seu Pet</p>
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>1º</span>Banho</p>
+                        <p className={styles.banho__subtitulo}>O banho é realizado com produtos específicos para cada tipo de pelagem, removendo sujeira, oleosidade e odores, proporcionando limpeza profunda e deixando o cão com uma sensação de frescor e conforto.</p>
                     </div>
+                    <div className={styles.banho__linha}></div>
+
                     <div className={styles.banho__info}>
                         <img className={styles.banho__imagem} src={Check} alt='' />
-                        <p className={styles.banho__titulo}>Cuidados Premium</p>
-                        <p className={styles.banho__subtitulo}>Conforto e Carinho para seu Animal de Estimação</p>
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>2º</span>Secagem e Escovação
+                        </p>
+                        <p className={styles.banho__subtitulo}>Após o banho, o pelo é cuidadosamente seco e escovado para remover nós, evitar embolamento e garantir uma pelagem macia, brilhante e desembaraçada, contribuindo para a saúde e beleza do cão.</p>
                     </div>
+                    <div className={styles.banho__linha}></div>
+
                     <div className={styles.banho__info}>
                         <img className={styles.banho__imagem} src={Check} alt='' />
-                        <p className={styles.banho__titulo}>Higiene e Estilo</p>
-                        <p className={styles.banho__subtitulo}>Banho e Tosa Personalizados para Todas as Raças</p>
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>3º</span>Limpeza dos Ouvidos e Corte de Unhas</p>
+                        <p className={styles.banho__subtitulo}>A limpeza dos ouvidos previne infecções e o acúmulo de cera, enquanto o corte de unhas mantém o cão confortável, evitando arranhões e problemas de locomoção, além de garantir sua higiene.</p>
+                    </div>
+                    <div className={styles.banho__linha}></div>
+
+                    <div className={styles.banho__info}>
+                        <img className={styles.banho__imagem} src={Check} alt='' />
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>4º</span>Tosas
+                        </p>
+                        <p className={styles.banho__subtitulo}>Realizamos tosa higiênica e estilizada, respeitando as necessidades do cão e as preferências do dono, garantindo uma aparência bonita e prática para diferentes raças e tipos de pelagem.</p>
+                    </div>
+                    <div className={styles.banho__linha}></div>
+
+                    <div className={styles.banho__info}>
+                        <img className={styles.banho__imagem} src={Check} alt='' />
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>5º</span>Finalização</p>
+                        <p className={styles.banho__subtitulo}>Para um toque especial, finalizamos com lacinhos e penteados que deixam o cão ainda mais charmoso, realçando sua personalidade e estilo após os cuidados.</p>
                     </div>
                 </div>
                 <div className={styles.banho__atividades__swiper}>

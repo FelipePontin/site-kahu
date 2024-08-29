@@ -73,7 +73,7 @@ const Creche = () => {
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche1} alt='' />
                         <p className={styles.creche__titulo}>Socialização e Convívio</p>
-                        <p className={styles.creche__subtitulo}>Creche Canina com Atividades, Cuidados Especializados e Muito Amor para Seu Melhor Amigo</p>
+                        <p className={styles.creche__subtitulo}>Oferecemos um ambiente controlado, onde os cães podem interagir e brincar uns com os outros. Cães bem socializados tendem a ser mais equilibrados e menos ansiosos.</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
@@ -81,7 +81,7 @@ const Creche = () => {
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche3} alt='' />
                         <p className={styles.creche__titulo}>Exercícios Físicos e Mentais</p>
-                        <p className={styles.creche__subtitulo}>Socialização, Brincadeiras Interativas e Supervisão Profissional na Nossa Creche Canina</p>
+                        <p className={styles.creche__subtitulo}>Os cães se exercitam diariamente, o que é essencial para a saúde física e mental. Atividades como corridas, agility e caça petiscos ajudam a gastar energia de maneira saudável e a ter uma mente mais desenvolvida</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
@@ -89,13 +89,13 @@ const Creche = () => {
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche2} alt='' />
                         <p className={styles.creche__titulo}>Supervisão Profissional</p>
-                        <p className={styles.creche__subtitulo}>Ambiente Seguro e Estimulante, com Atividades Planejadas para o Bem-Estar do Seu Cão na Creche Canina</p>
+                        <p className={styles.creche__subtitulo}>Nossa equipe é treinada para observar e responder às necessidades dos cães, garantindo que estejam seguros e felizes. Eles também são capazes de identificar sinais precoces de problemas de saúde ou comportamento.</p>
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
             </div>
 
-            <div className={styles.creche__atividades}>
+            {/* <div className={styles.creche__atividades}>
                 <div className={styles.creche__atividades__swiper}>
                     <Slider {...settings}>
                         <img className={styles.creche__atividades__imagem} src={ImagemAtividade1} alt='' />
@@ -112,7 +112,7 @@ const Creche = () => {
                     </div>
                     <p className={styles.creche__atividades__explicacao}>Atividades interativas, jogos para <span className={styles.creche__atividades__destaque}>estimulação física e mental, exercícios de obediência e habilidades</span>, além de encontros supervisionados para promover amizades e comportamento positivo.</p>
                 </div>
-            </div>
+            </div> */}
             {/* <div className={styles.creche__precos}>
                 <Title title={'Preços Creche'} />
                 <p className={styles.creche_subtitle}>(Pacotes mensais)</p>

@@ -29,8 +29,8 @@ const Hotel = () => {
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Filtro De Ar</p>
-                            <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos companheiros</p>
+                            <p className={styles.hotel__titulo}>Filtro de ar</p>
+                            <p className={styles.hotel__subtitulo}>Filtro para deixar o ar do ambiente puro e fresquinho, evitando alergias e crises respiratórias nos nossos aumigos.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
@@ -39,8 +39,8 @@ const Hotel = () => {
                     <div className={styles.hotel__card}>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
-                            <p className={styles.hotel__titulo}>Camas Individuais</p>
-                            <p className={styles.hotel__subtitulo}>Camas individuais, com colchões adaptados para o peso e tamanho de cada pet, que passam por higienização diária.</p>
+                            <p className={styles.hotel__titulo}>Camas individuais</p>
+                            <p className={styles.hotel__subtitulo}>Temos camas individuais para cada cachorrinho, que passam sempre por higienização.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
@@ -49,7 +49,7 @@ const Hotel = () => {
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
                             <p className={styles.hotel__titulo}>Acompanhamento</p>
-                            <p className={styles.hotel__subtitulo}>Acompanhamento 24h com um membro da equipe.</p>
+                            <p className={styles.hotel__subtitulo}>Seu cachorro é supervisionado 24h pelos nossos monitores.</p>
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
