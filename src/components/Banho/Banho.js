@@ -94,7 +94,7 @@ const Banho = () => {
 
                     <div className={styles.banho__info}>
                         <img className={styles.banho__imagem} src={Check} alt='' />
-                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>4º</span>Tosas
+                        <p className={styles.banho__titulo}><span className={styles.banho__lugar}>4º</span>Tosa
                         </p>
                         <p className={styles.banho__subtitulo}>Realizamos tosa higiênica e estilizada, respeitando as necessidades do cão e as preferências do dono, garantindo uma aparência bonita e prática para diferentes raças e tipos de pelagem.</p>
                     </div>
