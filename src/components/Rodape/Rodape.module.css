@@ -96,7 +96,18 @@
     }
 
     .banner__image {
-        width: 20rem;
+        width: 22.5rem;
         margin: 3rem 2rem;
+    }
+
+    .banner__icon {
+        position: absolute;
+        top: 70px;
+        right: 50px;
+        color: #fff;
+        background:rgb(140, 179, 142);
+        padding: 1rem;
+        font-size: 1.15rem;
+        border-radius: 100%;
     }
 }

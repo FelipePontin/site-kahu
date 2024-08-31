@@ -20,7 +20,7 @@
 
 .avaliacao__track {
   display: flex;
-  width: calc(200%); /* Duplicamos os cards */
+  width: calc(200%);
   animation: scroll 20s linear infinite alternate;
 }
 
@@ -69,15 +69,15 @@
 
 @media (max-width: 768px) {
   .avaliacao__container {
-    overflow: hidden; /* Oculta o conteúdo que está fora da área visível */
+    overflow: hidden;
     position: relative;
-    width: 100%; /* Define a largura do contêiner como 100% do pai */
+    width: 100%; 
   }
   
   .avaliacao__track {
     display: flex;
-    width: calc(200%); /* Define a largura total como o dobro do tamanho do contêiner para permitir a animação completa */
-    animation: scroll 20s linear infinite; /* Animação contínua */
+    width: calc(200%); 
+    animation: scroll 20s linear infinite; 
   }
   
   @keyframes scroll {
@@ -85,21 +85,21 @@
       transform: translateX(0);
     }
     50% {
-      transform: translateX(-300%); /* Move para a esquerda até o final da largura total */
+      transform: translateX(-300%);
     }
     100% {
-      transform: translateX(0); /* Volta ao início */
+      transform: translateX(0); 
     }
   }
   
   @media (max-width: 768px) {
     .avaliacao__track {
-      animation-duration: 30s; /* Animação mais rápida em dispositivos móveis */
+      animation-duration: 50s;
     }
   }
   
   .avaliacao__card {
-    flex: 0 0 250px; /* Ajuste o tamanho dos cards */
+    flex: 0 0 250px;
     height: auto;
     padding: 1rem;
     background: rgba(180, 207, 177, 0.767);
