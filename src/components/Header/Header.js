@@ -14,7 +14,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const Header = () => {
 
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(false)
     const [menuClass, setMenuClass] = useState(styles.header__list);
 
     const handleMenu = () => setMenu(!menu)

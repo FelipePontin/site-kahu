@@ -6,7 +6,7 @@
 
 .avaliacao__subtitle {
   font-size: 1.15rem;
-  margin: .5rem 0 2rem 0;
+  margin: 0.5rem 0 2rem 0;
   color: #1a212f;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -30,7 +30,7 @@
 
 .avaliacao__star {
   color: #ffee00;
-  margin: 0 .25rem .25rem 0;
+  margin: 0 0.25rem 0.25rem 0;
 }
 
 @keyframes scroll {
@@ -59,10 +59,52 @@
 .avaliacao__text {
   margin: 1.5rem 0 0 0;
   line-height: 1.35rem;
-  padding: 0 .25rem;
+  padding: 0 0.25rem;
   font-family: "Rubik", sans-serif;
 }
 
 .avaliacao__user {
   font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .avaliacao__container {
+    overflow: hidden; /* Oculta o conteúdo que está fora da área visível */
+    position: relative;
+    width: 100%; /* Define a largura do contêiner como 100% do pai */
+  }
+  
+  .avaliacao__track {
+    display: flex;
+    width: calc(200%); /* Define a largura total como o dobro do tamanho do contêiner para permitir a animação completa */
+    animation: scroll 20s linear infinite; /* Animação contínua */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-300%); /* Move para a esquerda até o final da largura total */
+    }
+    100% {
+      transform: translateX(0); /* Volta ao início */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .avaliacao__track {
+      animation-duration: 30s; /* Animação mais rápida em dispositivos móveis */
+    }
+  }
+  
+  .avaliacao__card {
+    flex: 0 0 250px; /* Ajuste o tamanho dos cards */
+    height: auto;
+    padding: 1rem;
+    background: rgba(180, 207, 177, 0.767);
+    color: #1a212f;
+    border-radius: 10px;
+    margin: 10px;
+  }
 }
