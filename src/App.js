@@ -9,6 +9,7 @@ import CardInfo from "./components/CardInfo/CardInfo"
 import Creche from "./components/Creche/Creche"
 import Hotel from './components/Hotel/Hotel'
 import Banho from './components/Banho/Banho'
+import Veterinario from "./components/Veterinario/Veterinario"
 import Consultar from "./components/Consultar/Consultar"
 import Sobre from './components/Sobre/Sobre'
 import Equipe from "./components/Equipe/Equipe"
@@ -38,6 +39,7 @@ const App = () => {
             <Creche />
             <Hotel />
             <Banho />
+            <Veterinario />
             {/* <Consultar /> */}
             <Sobre />
             <Equipe />

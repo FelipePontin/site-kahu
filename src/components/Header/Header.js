@@ -47,6 +47,7 @@ const Header = () => {
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#creche'>Creche</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#hotel'>Hotel</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#banho'>Banho e Tosa</Link></li>
+                            <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#veterinario'>Veterinário</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
                             <div className={styles.header__icons__division}>
                                 <a href='https://www.instagram.com/kahu.larpet/'>

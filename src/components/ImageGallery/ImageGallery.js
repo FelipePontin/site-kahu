@@ -31,7 +31,9 @@ const ImageGallery = () => {
                 <Title title='Momentos Felizes na Kahu' />
             </div>
             <p className={styles.image__gallery__subtitle}>Confira algumas fotos dos nossos aulunos se divertindo e aproveitando cada momento na Kahu!</p>
-            <Button text={'INSTAGRAM'} type={'green'} icon={'FaInstagram'} />
+            <a href='https://www.instagram.com/kahu.larpet/'>
+                <Button text={'INSTAGRAM'} type={'green'} icon={'FaInstagram'} />
+            </a>
             <div className={styles.image__gallery__content}>
                 <Masonry columnsCount={3} gutter="10px">
                     {images.map((image, i) => (
@@ -43,7 +45,6 @@ const ImageGallery = () => {
                     ))}
                 </Masonry>
             </div>
-
         </section>
     )
 }

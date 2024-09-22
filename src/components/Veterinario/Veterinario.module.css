@@ -1,0 +1,74 @@
+.veterinario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 0 10rem 0;
+}
+
+.veterinario__titulo {
+    position: relative;
+    z-index: 1;
+    margin: 1rem 0 0 0;
+}
+
+.veterinario__divisao {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.veterinario__subtitle {
+    position: relative;
+    z-index: 1;
+    max-width: 27rem;
+    margin: 1rem 0 0 0;
+    font-size: 1.05rem;
+    margin: 1rem 0;
+    color: #1a212f;
+    font-family: "Lato", sans-serif;
+}
+
+.veterinario__icone {
+    position: absolute;
+    top: -6.5rem;
+    left: -4.5rem;
+    z-index: 0;
+}
+
+.veterinario__atividades__imagem {
+    width: 32.5rem;
+    margin: 0 0 0 5rem;
+    border-radius: 1rem;
+}
+
+.banner__botao {
+    margin: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .estrutura {
+        margin: 7rem 0 7rem 0;
+        flex-direction: column;
+    }
+
+    .veterinario__subtitle {
+        margin: 1rem 1rem 0 1rem;
+        text-align: center;
+    }
+
+    .veterinario__atividades__swiper {
+        width: 22.5rem;
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .veterinario__subtitle {
+        margin: 1rem 2rem 0 2rem;
+        text-align: justify;
+    }
+}

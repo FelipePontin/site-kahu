@@ -45,7 +45,7 @@ const Servicos = () => {
                         </Link>
                         {/* <img className={styles.servicos__imagemPata} src={ImagemPataCachorro} alt='' /> */}
                     </div>
-                    <Link className={styles.servicos__servico}>
+                    <Link className={styles.servicos__servico} smooth to='#veterinario'>
                         <img className={styles.servicos__imagem} src={IconeVeterinario} alt='' />
                         <p className={styles.servicos__titulo}>Centro Veterinário</p>
                         <p className={styles.servicos__subtitulo}>Nossa abordagem ao serviço de veterinário vai além do tratamento convencional - é um compromisso integral com a saúde e bem-estar animal.</p>
