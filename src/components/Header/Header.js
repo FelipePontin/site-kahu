@@ -55,7 +55,7 @@ const Header = () => {
                                         <FaInstagram className={styles.header__icon} />
                                     </div>
                                 </a>
-                                <a href='https://www.tiktok.com/@kahu.higienopolis'>
+                                <a href='https://www.tiktok.com/@kahu.larpet'>
                                     <div className={styles.header__divisio__icon}>
                                         <FaTiktok className={styles.header__icon} />
                                     </div>

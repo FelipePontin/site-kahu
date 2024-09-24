@@ -12,8 +12,12 @@ import Mari from '../../images/Equipe/Mari.png'
 import Nati from '../../images/Equipe/Nati.png'
 import Yas from '../../images/Equipe/Yas.png'
 import Rafa from '../../images/Equipe/Rafa.png'
-import Jaque from '../../images/Equipe/Jaque.png'
 import Bia from '../../images/Equipe/Bia.png'
+import Anna from '../../images/Equipe/Anna.png'
+import Luma from '../../images/Equipe/Luma.png'
+import Gi from '../../images/Equipe/Gi.png'
+import GiVet from '../../images/Equipe/Gi Veterinária.png'
+
 
 const Equipe = () => {
     return (
@@ -27,6 +31,11 @@ const Equipe = () => {
                     <p className={styles.equipe__description}>Supervisora</p>
                 </div>
                 <div className={styles.equipe__people}>
+                    <img className={styles.equipe__image} src={Anna} alt='' />
+                    <p className={styles.equipe__name}>Anna</p>
+                    <p className={styles.equipe__description}>Monitora</p>
+                </div>
+                <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Bia} alt='' />
                     <p className={styles.equipe__name}>Bia</p>
                     <p className={styles.equipe__description}>Monitora</p>
@@ -37,8 +46,13 @@ const Equipe = () => {
                     <p className={styles.equipe__description}>Monitor</p>
                 </div>
                 <div className={styles.equipe__people}>
-                    <img className={styles.equipe__image} src={Jaque} alt='' />
-                    <p className={styles.equipe__name}>Jaque</p>
+                    <img className={styles.equipe__image} src={Gi} alt='' />
+                    <p className={styles.equipe__name}>Gi</p>
+                    <p className={styles.equipe__description}>Monitora</p>
+                </div>
+                <div className={styles.equipe__people}>
+                    <img className={styles.equipe__image} src={Luma} alt='' />
+                    <p className={styles.equipe__name}>Luma</p>
                     <p className={styles.equipe__description}>Monitora</p>
                 </div>
                 <div className={styles.equipe__people}>
@@ -47,26 +61,29 @@ const Equipe = () => {
                     <p className={styles.equipe__description}>Monitora</p>
                 </div>
                 <div className={styles.equipe__people}>
-                    <img className={styles.equipe__image} src={Rafa} alt='' />
-                    <p className={styles.equipe__name}>Rafa</p>
-                    <p className={styles.equipe__description}>Monitor</p>
-                </div>
-               
-                <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Nicole} alt='' />
                     <p className={styles.equipe__name}>Nicole</p>
                     <p className={styles.equipe__description}>Monitora</p>
                 </div>
                 <div className={styles.equipe__people}>
+                    <img className={styles.equipe__image} src={Rafa} alt='' />
+                    <p className={styles.equipe__name}>Rafa</p>
+                    <p className={styles.equipe__description}>Monitor</p>
+                </div>
+                <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Natizinha} alt='' />
-                    <p className={styles.equipe__name}>Nati</p>
+                    <p className={styles.equipe__name}>Natizinha</p>
                     <p className={styles.equipe__description}>Monitora e Banhista</p>
                 </div>
-               
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Lari} alt='' />
                     <p className={styles.equipe__name}>Lari</p>
                     <p className={styles.equipe__description}>Banhista e Tosadora</p>
+                </div>
+                <div className={styles.equipe__people}>
+                    <img className={styles.equipe__image} src={GiVet} alt='' />
+                    <p className={styles.equipe__name}>Gi</p>
+                    <p className={styles.equipe__description}>Veterinária</p>
                 </div>
                 <div className={styles.equipe__people}>
                     <img className={styles.equipe__image} src={Mari} alt='' />

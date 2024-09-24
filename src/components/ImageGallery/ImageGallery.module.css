@@ -55,12 +55,12 @@
 
 @media screen and (max-width: 585px) {
     .image__gallery__image {
-        width: 6.5rem;
+        width: 7rem;
         height: 100%;
     }
 
     .image__gallery__content {
         margin: 3.5rem 2rem 0 2rem;
-        width: 20rem;
+        width: 21.5rem;
     }
 }
