@@ -26,7 +26,7 @@ const Hotel = () => {
             <Title title={'Hotel Canino'} />
             <div className={styles.hotel__cards}>
                 <div>
-                    <div className={styles.hotel__card}>
+                    <div className={styles.hotel__card} data-aos='fade-up'>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
                             <p className={styles.hotel__titulo}>Rotina</p>
@@ -34,7 +34,7 @@ const Hotel = () => {
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
-                    <div className={styles.hotel__card}>
+                    <div className={styles.hotel__card} data-aos='fade-up'>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
                             <p className={styles.hotel__titulo}>Filtro de ar</p>
@@ -44,7 +44,7 @@ const Hotel = () => {
                     </div>
                 </div>
                 <div>
-                    <div className={styles.hotel__card}>
+                    <div className={styles.hotel__card} data-aos='fade-up'>
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
                             <p className={styles.hotel__titulo}>Camas individuais</p>
@@ -52,7 +52,7 @@ const Hotel = () => {
                         </div>
                         {/* <button className={styles.hotel__button}>Saiba Mais</button> */}
                     </div>
-                    <div className={styles.hotel__card}>
+                    <div className={styles.hotel__card} data-aos='fade-up'>
 
                         <div className={styles.hotel__cardDivision}>
                             <img className={styles.banho__imagem} src={Check} alt='' />
