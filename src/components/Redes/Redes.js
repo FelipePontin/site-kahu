@@ -6,10 +6,17 @@ import Title from "../Title/Title"
 
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Redes = () => {
 
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+      }, [])
+
     return (
-        <section className={styles.redes}>
+        <section className={styles.redes} data-aos='fade-up'>
             <Title title='Nos Acompanhe Nas Redes Sociais' className={styles.redes__title} />
             <div className={styles.redes__container}>
                 <a href='https://www.instagram.com/kahu.larpet/'>

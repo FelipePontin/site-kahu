@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Hotel.module.css'
 
@@ -11,9 +11,17 @@ import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
 
 import Check from '../../images/CHECK.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Hotel = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
+
     return (
-        <section className={styles.hotel} id='hotel'>
+        <section className={styles.hotel} id='hotel' data-aos='fade-up'>
             <img className={styles.hotel__icon} src={IconeCreche} />
             <Title title={'Hotel Canino'} />
             <div className={styles.hotel__cards}>

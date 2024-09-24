@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Sobre.module.css'
 
@@ -8,11 +8,19 @@ import LogoKahu from '../../images/LogoKahuHeader.png'
 import CachorroSobre from '../../images/CachorroSobre.png'
 import PataBranca from '../../images/PataBranca.svg'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Sobre = () => {
+    
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
+
     return (
-        <section className={styles.sobre} id='sobre'>
+        <section className={styles.sobre} id='sobre' data-aos='fade-up'>
             <div className={styles.sobre__kahu}>
-                <img className={styles.sobre__imagem} src={CachorroSobre} alt='' />
+                <img className={styles.sobre__imagem} src={CachorroSobre} alt='' data-aos="fade-right"/>
                 <div className={styles.sobre__divisao}>
                     <img className={styles.sobre__logo} src={LogoKahu} alt='' />
                     <Title title='Sobre a KAHU' />

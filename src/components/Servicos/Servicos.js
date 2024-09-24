@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Servicos.module.css'
 
@@ -16,9 +16,17 @@ import { FaArrowRight } from "react-icons/fa6";
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Servicos = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
+
     return (
-        <section className={styles.servicos} id='servicos'>
+        <section className={styles.servicos} id='servicos' data-aos='fade-up'>
             <div className={styles.servicos__title}>
                 <Title title={'Nossos Serviços'} />
             </div>

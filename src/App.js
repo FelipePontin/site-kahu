@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
@@ -21,7 +21,15 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import './App.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const App = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     return (
         <>
             <Header />

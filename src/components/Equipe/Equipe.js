@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Equipe.module.css'
 
@@ -18,10 +18,17 @@ import Luma from '../../images/Equipe/Luma.png'
 import Gi from '../../images/Equipe/Gi.png'
 import GiVet from '../../images/Equipe/Gi Veterinária.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Equipe = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
+
     return (
-        <section className={styles.equipe}>
+        <section className={styles.equipe} data-aos='fade-up'>
             <Title title='Nossa Equipe' />
             <p className={styles.equipe__title}>Profissionais apaixonados e qualificados para cuidar do seu melhor amigo!</p>
             <div className={styles.equipe__team}>

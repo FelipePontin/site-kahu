@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Estrutura.module.css'
 
@@ -19,7 +19,14 @@ import Estrutura3 from '../../images/Estrutura/Estrutura3.png'
 import Estrutura4 from '../../images/Estrutura/Estrutura4.png'
 import Estrutura5 from '../../images/Estrutura/Estrutura5.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Estrutura = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
 
     const PrevArrow = (props) => {
         const { className, onClick } = props;
@@ -60,7 +67,7 @@ const Estrutura = () => {
     };
 
     return (
-        <section className={styles.estrutura}>
+        <section className={styles.estrutura} data-aos='fade-up'>
             <div className={styles.estrutura__divisao}>
                 <div className={styles.estrutura__titulo}>
                     <Title title='Estrutura e Ambiente' />
@@ -68,7 +75,7 @@ const Estrutura = () => {
                 <p className={styles.estrutura__subtitle}>Planejamos uma estrutura focada no conforto, segurança e diversão dos cães. Contamos com uma área aberta onde eles podem correr e brincar livremente, sempre sob supervisão.</p>
                 <img className={styles.estrutura__icone} src={IconeCachorro} alt='' />
             </div>
-            <div className={styles.estrutura__atividades__swiper}>
+            <div className={styles.estrutura__atividades__swiper} data-aos="fade-left">
                 <Slider {...settings}>
                     <img className={styles.estrutura__atividades__imagem} src={Estrutura1} alt='' />
                     <img className={styles.estrutura__atividades__imagem} src={Estrutura4} alt='' />

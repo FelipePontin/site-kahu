@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Creche.module.css'
 
@@ -14,6 +14,9 @@ import './styles.css'
 
 import Title from "../Title/Title"
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import ImagemCreche1 from '../../images/Creche/ImagemCreche1.png'
 import ImagemCreche2 from '../../images/Creche/ImagemCreche2.png'
 import ImagemCreche3 from '../../images/Creche/ImagemCreche3.png'
@@ -25,6 +28,10 @@ import ImagemAtividade4 from '../../images/Creche/Atividades/ImagemAtividade4.pn
 import ImagemAtividade5 from '../../images/Creche/Atividades/ImagemAtividade5.png'
 
 const Creche = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
 
     const PrevArrow = (props) => {
         const { className, onClick } = props;
@@ -65,7 +72,7 @@ const Creche = () => {
     };
 
     return (
-        <section className={styles.creche} id='creche'>
+        <section className={styles.creche} id='creche' data-aos='fade-up'>
             <img className={styles.creche__icon} src={IconeCreche} />
             <Title title={'Creche Canina'} />
             <div className={styles.creche__cards}>

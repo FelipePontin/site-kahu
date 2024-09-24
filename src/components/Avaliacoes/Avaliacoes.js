@@ -1,10 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import styles from './Avaliacoes.module.css'
 
 import Title from "../Title/Title"
 
-import { FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa"
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Avaliacoes = () => {
 
@@ -19,10 +22,14 @@ const Avaliacoes = () => {
     { id: 8, text: `Um lugar maravilhoso para deixar seu doguinho, toda equipe de monitores tem experiência na área vet, os cuidados com alimentação, as brincadeiras e atividades são muito boas para os cachorros.`, user: '@Gabriela Camilo' },
   ];
 
+  useEffect(() => {
+    AOS.init({ duration: 500 })
+  }, [])
+
   return (
-    <div className={styles.avaliacoes}>
+    <div className={styles.avaliacoes} data-aos='fade-up'>
       <Title title='As Nossas Avaliações 😊' />
-      <p className={styles.avaliacao__subtitle}>Veja o que estão falando da gente por aí!</p>
+      <p className={styles.avaliacao__subtitle}>Veja o que estão falando da gente por aí!</p>
       <div className={styles.avaliacao__container}>
         <div className={styles.avaliacao__track}>
           {cards.map((card) => (

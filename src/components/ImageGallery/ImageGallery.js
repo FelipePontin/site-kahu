@@ -14,7 +14,15 @@ import Cachorro05 from '../../images/CachorrosMomentosFelizes/Cachorro05.png'
 import Cachorro06 from '../../images/CachorrosMomentosFelizes/Cachorro06.png'
 import Cachorro07 from '../../images/CachorrosMomentosFelizes/Cachorro07.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const ImageGallery = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 500 })
+    }, [])
+
     const images = [
         Cachorro01,
         Cachorro02,
@@ -26,7 +34,7 @@ const ImageGallery = () => {
     ]
 
     return (
-        <section className={styles.image__gallery}>
+        <section className={styles.image__gallery} data-aos='fade-up'>
             <div className={styles.image__title__division}>
                 <Title title='Momentos Felizes na Kahu' />
             </div>
@@ -41,6 +49,7 @@ const ImageGallery = () => {
                             key={i}
                             src={image}
                             className={styles.image__gallery__image}
+                            data-aos="flip-left"
                         />
                     ))}
                 </Masonry>
