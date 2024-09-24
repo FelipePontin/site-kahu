@@ -89,6 +89,10 @@
         margin: 0 1.25rem;
     }
 
+    .banner__botao {
+        margin: 1.5rem auto 0 auto;
+    }
+
     .veterinario__subtitle {
         text-align: start;
         margin: 1rem 0;
