@@ -33,19 +33,19 @@ const Servicos = () => {
             <BrowserRouter>
                 <div className={styles.servicos__divisoes}>
                     <div className={styles.servicos__divisao}>
-                        <Link className={styles.servicos__servico} smooth to='#creche'>
+                        <Link className={styles.servicos__servico} smooth to='#creche' data-aos='fade-up'>
                             <img className={styles.servicos__imagem} src={IconeCreche} alt='' />
                             <p className={styles.servicos__titulo}>Creche Canina</p>
                             <p className={styles.servicos__subtitulo}>Oferecemos um espaço completo para seu cão se divertir. Um ambiente seguro e cercado de profissionais qualificados que amam o que fazem.</p>
                             <FaArrowRight className={styles.servicos__icone} />
                         </Link>
-                        <Link className={styles.servicos__servico} smooth to='#hotel'>
+                        <Link className={styles.servicos__servico} smooth to='#hotel' data-aos='fade-up'>
                             <img className={styles.servicos__imagem} src={IconeHotel} alt='' />
                             <p className={styles.servicos__titulo}>Hotel Canino</p>
                             <p className={styles.servicos__subtitulo}>No nosso hotel, seu cachorrinho encontra todo o conforto e cuidado que ele merece.</p>
                             <FaArrowRight className={styles.servicos__icone} />
                         </Link>
-                        <Link className={styles.servicos__servico} smooth to='#banho'>
+                        <Link className={styles.servicos__servico} smooth to='#banho' data-aos='fade-up'>
                             <img className={styles.servicos__imagem} src={IconeBanhoeTosa} alt='' />
                             <p className={styles.servicos__titulo}>Banho e Tosa</p>
                             <p className={styles.servicos__subtitulo}>Com todo amor e cuidado, deixamos seu cãozinho ainda mais lindo e cheiroso!</p>
@@ -53,7 +53,7 @@ const Servicos = () => {
                         </Link>
                         {/* <img className={styles.servicos__imagemPata} src={ImagemPataCachorro} alt='' /> */}
                     </div>
-                    <Link className={styles.servicos__servico} smooth to='#veterinario'>
+                    <Link className={styles.servicos__servico} smooth to='#veterinario' data-aos='fade-up'>
                         <img className={styles.servicos__imagem} src={IconeVeterinario} alt='' />
                         <p className={styles.servicos__titulo}>Centro Veterinário</p>
                         <p className={styles.servicos__subtitulo}>Nossa abordagem ao serviço de veterinário vai além do tratamento convencional - é um compromisso integral com a saúde e bem-estar animal.</p>

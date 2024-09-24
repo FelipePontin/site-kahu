@@ -76,7 +76,7 @@ const Creche = () => {
             <img className={styles.creche__icon} src={IconeCreche} />
             <Title title={'Creche Canina'} />
             <div className={styles.creche__cards}>
-                <div className={styles.creche__card}>
+                <div className={styles.creche__card} data-aos='fade-up'>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche1} alt='' />
                         <p className={styles.creche__titulo}>Socialização e Convívio</p>
@@ -84,7 +84,7 @@ const Creche = () => {
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
-                <div className={styles.creche__card}>
+                <div className={styles.creche__card} data-aos='fade-up'>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche3} alt='' />
                         <p className={styles.creche__titulo}>Exercícios Físicos e Mentais</p>
@@ -92,7 +92,7 @@ const Creche = () => {
                     </div>
                     {/* <button className={styles.creche__button}>Saiba Mais</button> */}
                 </div>
-                <div className={styles.creche__card}>
+                <div className={styles.creche__card} data-aos='fade-up'>
                     <div className={styles.creche__cardDivision}>
                         <img className={styles.creche__imagem} src={ImagemCreche2} alt='' />
                         <p className={styles.creche__titulo}>Supervisão Profissional</p>

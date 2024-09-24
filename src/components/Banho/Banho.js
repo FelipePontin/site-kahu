@@ -112,7 +112,7 @@ const Banho = () => {
                         <p className={styles.banho__subtitulo}>Para um toque especial, finalizamos com lacinhos e penteados que deixam o cão ainda mais charmoso, realçando sua personalidade e estilo após os cuidados.</p>
                     </div>
                 </div>
-                <div className={styles.banho__atividades__swiper}>
+                <div className={styles.banho__atividades__swiper} data-aos="flip-left">
                     <Slider {...settings}>
                         <img className={styles.banho__atividades__imagem} src={Imagem1} alt='' />
                         <img className={styles.banho__atividades__imagem} src={Imagem2} alt='' />
