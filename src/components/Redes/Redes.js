@@ -19,7 +19,7 @@ const Redes = () => {
         <section className={styles.redes} data-aos='fade-up'>
             <Title title='Nos Acompanhe Nas Redes Sociais' className={styles.redes__title} />
             <div className={styles.redes__container}>
-                <a href='https://www.instagram.com/kahu.larpet/'>
+                <a href='https://www.instagram.com/kahu.higienopolis/'>
                     <div className={`${styles.redes__division} ${styles.redes__instagram}`}>
                         <FaInstagram className={styles.redes__icon} />
                         <p className={styles.redes__name}>Instagram</p>

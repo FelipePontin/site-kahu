@@ -50,7 +50,7 @@ const Header = () => {
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#veterinario'>Veterinário</Link></li>
                             <li className={styles.header__item}><Link className={styles.header__link} href='' onClick={closeMenu} smooth to='#sobre'>Sobre Nós</Link></li>
                             <div className={styles.header__icons__division}>
-                                <a href='https://www.instagram.com/kahu.larpet/'>
+                                <a href='https://www.instagram.com/kahu.higienopolis/'>
                                     <div className={styles.header__divisio__icon}>
                                         <FaInstagram className={styles.header__icon} />
                                     </div>

@@ -39,7 +39,7 @@ const ImageGallery = () => {
                 <Title title='Momentos Felizes na Kahu' />
             </div>
             <p className={styles.image__gallery__subtitle}>Confira algumas fotos dos nossos aulunos se divertindo e aproveitando cada momento na Kahu!</p>
-            <a href='https://www.instagram.com/kahu.larpet/'>
+            <a href='https://www.instagram.com/kahu.higienopolis/'>
                 <Button text={'INSTAGRAM'} type={'green'} icon={'FaInstagram'} />
             </a>
             <div className={styles.image__gallery__content}>
