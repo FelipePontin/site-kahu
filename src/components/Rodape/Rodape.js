@@ -31,7 +31,11 @@ const Rodape = () => {
         </div>
         <a href="https://www.google.com/maps/place/Rua+Dr.+Gabriel+dos+Santos,+55+-+Higienópolis,+São+Paulo+-+SP,+01231-010/data=!4m2!3m1!1s0x94ce5816c57a4bab:0x4e4e860476115260?sa=X&ved=1t:242&ictx=111">
           <div className={styles.rodape__mapa}>
-            <img className={styles.banner__image} src={Kahu} />
+            <img
+              className={styles.banner__image}
+              src={Kahu}
+              alt="Imagem Casa Kahu"
+            />
             <FaSearch className={styles.banner__icon} />
           </div>
         </a>

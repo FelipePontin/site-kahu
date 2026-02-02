@@ -1,45 +1,65 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from "react";
 
-import styles from './Veterinario.module.css'
+import styles from "./Veterinario.module.css";
 
-import IconeVeterinario from '../../images/IconeVeterinario.svg'
-import ImagemVet from '../../images/imagemVet.jpg'
-import PataDegrade from '../../images/PataDegrade.svg'
+import IconeVeterinario from "../../images/IconeVeterinario.svg";
+import ImagemVet from "../../images/imagemVet.jpg";
+import PataDegrade from "../../images/PataDegrade.svg";
 
-import Title from "../Title/Title"
-import Button from "../Button/Button"
+import Title from "../Title/Title";
+import Button from "../Button/Button";
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Veterinario = () => {
+  useEffect(() => {
+    AOS.init({ duration: 500 });
+  }, []);
 
-    useEffect(() => {
-        AOS.init({ duration: 500 })
-    }, [])
+  return (
+    <section className={styles.veterinario} id="veterinario" data-aos="fade-up">
+      <img
+        className={styles.veterinario__icon}
+        src={IconeVeterinario}
+        alt="Icone Veterinario"
+      />
+      <div className={styles.veterinario__titulo}>
+        <Title title="Centro Veterinário" />
+      </div>
+      <div className={styles.veterinario__infos}>
+        <div className={styles.veterinario__divisao}>
+          <img
+            src={PataDegrade}
+            className={styles.veterinario__iconePata}
+            alt="Icone Pata Degrade"
+          />
+          <p className={styles.veterinario__subtitle}>
+            Nossa veterinária está disponível para todos os cães, sejam eles da
+            creche ou visitantes externos. Consultas de rotina, exames
+            preventivos e diagnósticos especializados. Aqui, seu cão recebe
+            cuidados especializados em todas as etapas, com atenção dedicada à
+            sua saúde e conforto.
+          </p>
+          <div className={styles.banner__botao}>
+            <a href="https://api.whatsapp.com/send?phone=5511971107188&text=Olá!">
+              <Button text={"MARCAR CONSULTA"} type="green" icon={"IoPaw"} />
+            </a>
+          </div>
+        </div>
+        <div
+          className={styles.veterinario__atividades__swiper}
+          data-aos="fade-left"
+        >
+          <img
+            className={styles.veterinario__atividades__imagem}
+            src={ImagemVet}
+            alt="Imagem Veterinário"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-    return (
-        <section className={styles.veterinario} id='veterinario' data-aos='fade-up'>
-            <img className={styles.veterinario__icon} src={IconeVeterinario} />
-            <div className={styles.veterinario__titulo}>
-                <Title title='Centro Veterinário' />
-            </div>
-            <div className={styles.veterinario__infos}>
-                <div className={styles.veterinario__divisao}>
-                    <img src={PataDegrade} className={styles.veterinario__iconePata} />
-                    <p className={styles.veterinario__subtitle}>Nossa veterinária está disponível para todos os cães, sejam eles da creche ou visitantes externos. Consultas de rotina, exames preventivos e diagnósticos especializados. Aqui, seu cão recebe cuidados especializados em todas as etapas, com atenção dedicada à sua saúde e conforto.</p>
-                    <div className={styles.banner__botao}>
-                        <a href='https://api.whatsapp.com/send?phone=5511971107188&text=Olá!'>
-                            <Button text={'MARCAR CONSULTA'} type='green' icon={'IoPaw'} />
-                        </a>
-                    </div>
-                </div>
-                <div className={styles.veterinario__atividades__swiper} data-aos="fade-left">
-                    <img className={styles.veterinario__atividades__imagem} src={ImagemVet} />
-                </div>
-            </div>
-        </section>
-    )
-}
-
-export default Veterinario
+export default Veterinario;

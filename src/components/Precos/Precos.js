@@ -2,8 +2,6 @@ import React from "react"
 
 import styles from './Precos.module.css'
 
-import Title from "../Title/Title"
-
 const Precos = () => {
 
     return (

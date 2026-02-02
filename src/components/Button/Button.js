@@ -6,8 +6,8 @@ import { IoPaw } from "react-icons/io5"
 import { FaInstagram } from "react-icons/fa";
 
 const Button = ({text, type, icon}) => {
-    const buttonClass = type == 'green' ? styles.button__green  : ''
-    const iconClass = type == 'green' ? styles.button__iconGreen  : ''
+    const buttonClass = type === 'green' ? styles.button__green  : ''
+    const iconClass = type === 'green' ? styles.button__iconGreen  : ''
 
     const renderIcon = () => {
         switch (icon) {
