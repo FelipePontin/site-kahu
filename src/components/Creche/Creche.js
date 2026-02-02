@@ -23,28 +23,6 @@ const Creche = () => {
     AOS.init({ duration: 500 });
   }, []);
 
-  const PrevArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-      <div
-        className={className}
-        onClick={onClick}
-        style={{ ...arrowStyle, left: "10px" }}
-      ></div>
-    );
-  };
-
-  const NextArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-      <div
-        className={className}
-        onClick={onClick}
-        style={{ ...arrowStyle, right: "10px" }}
-      ></div>
-    );
-  };
-
   const arrowStyle = {
     position: "absolute",
     top: "50%",
