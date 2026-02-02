@@ -23,18 +23,6 @@ const Creche = () => {
     AOS.init({ duration: 500 });
   }, []);
 
-  const arrowStyle = {
-    position: "absolute",
-    top: "50%",
-    fontSize: "24px",
-    color: "#000",
-    cursor: "pointer",
-    zIndex: 1,
-    borderRadius: "50%",
-    padding: "10px",
-    transform: "translateY(-50%)",
-  };
-
   return (
     <section className={styles.creche} id="creche" data-aos="fade-up">
       <img
